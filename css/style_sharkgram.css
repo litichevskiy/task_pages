@@ -1,0 +1,65 @@
+@import 'reset.css';
+@import 'defoult_classes.css';
+
+.container_login_page{
+    width: 100%;
+    position: relative;
+}
+.bg_container_login_page,
+.bg_phone{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bg_phone{
+    display: none;
+}
+.header{
+    background-color: transparent;
+    border-bottom: none;
+    text-align: left;
+}
+.container_logo{
+    margin-left: 89px;
+}
+.header_sharkgram{
+    color: rgb(82,57,10);
+}
+.content_block{
+    width: 53%;
+    padding: 0 0 30px 88px;
+}
+.header_content_block{
+    color: rgb(82,57,10);
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    line-height: 1.4;
+}
+.content{
+    color: rgb(82,57,10);
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    padding: 10px 0 0 2px;
+}
+input[name="user_login"]{
+    border: 1px solid rgb(164,162,159);
+    color: rgb(159,155,148);
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 10px 10px 10px 22px;
+    display: block;
+    width: 255px;
+}
+.submit_login{
+    background-color: rgb(7,211,15);
+    color: rgb(255,255,255);
+    width: 255px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}

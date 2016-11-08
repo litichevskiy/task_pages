@@ -1,4 +1,5 @@
 @import 'reset.css';
+@import 'defoult_classes.css';
 
 @font-face {
     font-family: open_sans_semibold;
@@ -10,31 +11,6 @@
     width: 100%;
     background-color: rgb(250,250,250);
     font-family: sans-serif;
-}
-.container_logo{
-    font-family: open_sans_semibold, sans-serif;
-    position: relative;
-    display: inline-block;
-    margin: 22px 0 25px 0;
-}
-.header{
-    text-align: center;
-    border-bottom: 1px solid rgb(237,238,238);
-    background-color: rgb(255,255,255);
-}
-.header_sharkgram{
-    color: rgb(0, 198, 206);
-    display: inline-block;
-    margin: 0;
-    font-size: 2.66em;
-    letter-spacing: -0.1em;
-}
-.link_not_content{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
 }
 .block_content{
     text-align: left;

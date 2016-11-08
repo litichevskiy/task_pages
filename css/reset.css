@@ -17,3 +17,12 @@ header,section,
 main,nav,footer{
     display: block;
 }
+input{
+    outline: none;
+}
+input:focus{
+    border: none;
+}
+button::-moz-focus-inner{
+    border:none;
+}
