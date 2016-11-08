@@ -1,0 +1,19 @@
+body,html{
+    width: 100%;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header,section,
+main,nav,footer{
+    display: block;
+}

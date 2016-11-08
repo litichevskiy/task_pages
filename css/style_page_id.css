@@ -1,0 +1,81 @@
+@import 'reset.css';
+
+@font-face {
+    font-family: open_sans_semibold;
+    src: url(../fonts/open_sans_semibold.ttf);
+}
+.container_page_id{
+    max-width: 1366px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(250,250,250);
+    font-family: sans-serif;
+}
+.container_logo{
+    font-family: open_sans_semibold, sans-serif;
+    position: relative;
+    display: inline-block;
+    margin: 22px 0 25px 0;
+}
+.header{
+    text-align: center;
+    border-bottom: 1px solid rgb(237,238,238);
+    background-color: rgb(255,255,255);
+}
+.header_sharkgram{
+    color: rgb(0, 198, 206);
+    display: inline-block;
+    margin: 0;
+    font-size: 2.66em;
+    letter-spacing: -0.1em;
+}
+.link_not_content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.block_content{
+    text-align: left;
+    display: inline-block;
+    width: 26.3em;
+    box-shadow: 0px 11px 58px -6px rgb(236, 236, 236);
+    border-radius: 5px;
+    margin-top: 90px;
+    padding: 45px 0 47px 0;
+    background-color: rgb(255,255,255);
+}
+.header_block_content{
+    color: rgb(114,114,114);
+    text-transform: uppercase;
+    margin: 0 0 37px 55px;
+    padding-left: 22px;
+    font-weight: 600;
+}
+.order_id{
+    color: rgb(63,63,63);
+    box-shadow: 0px 13px 70px -1px rgb(236, 236, 236);
+    padding: 17px 0px 17px 23px;
+    border-radius: 5px;
+    margin: 0 63px 43px 60px;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.content{
+    color: rgb(114,114,114);
+    padding: 0 70px 42px 68px;
+    margin: 0;
+    line-height: 1.9;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    letter-spacing: -0.5px;
+}
+.link_home_page{
+    color: rgb(2,196,205);
+    padding: 11px 50px;
+    border: 2px solid rgb(2,196,205);
+    border-radius: 5px;
+    margin-left: 88px;
+    display: inline-block;
+}
