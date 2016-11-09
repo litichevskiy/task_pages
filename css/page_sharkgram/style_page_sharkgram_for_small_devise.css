@@ -27,6 +27,7 @@
     }
     .bg_phone{
         display: inline-block;
+        opacity: 0.6;
     }
 }
 @media (max-width:500px){
