@@ -14,7 +14,8 @@ a{
     text-decoration: none;
 }
 header,section,
-main,nav,footer{
+main,nav,footer,
+aside{
     display: block;
 }
 input{

@@ -1,0 +1,56 @@
+.payment_method{
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    background-color: rgb(255,255,255);
+    font-family: sans-serif;
+    padding-bottom: 60px;
+    box-shadow: 0px 11px 61px -7px rgb(204, 198, 198);
+    display: none;
+}
+.header_block_payment_method{
+    color: rgb(36,36,36);
+    text-align: center;
+    margin-top: 45px;
+    font-size: 1.7em;
+}
+.payment_card,
+.payment_cash{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 55px;
+}
+.payment_cash{
+    float: right;
+}
+.payment_method .content{
+    color: rgb(36,36,36);
+    font-size: 1.5em;
+    width: 60%;
+    margin: auto;
+    margin-top: 90px;
+}
+.submit_pay_now{
+    background-color: rgb(7,211,15);
+    color: rgb(255,255,255);
+    width: 150px;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 80px;
+}
+.close_block_payment_method{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    color: rgb(88,211,216);
+    cursor: pointer;
+    font-size: 2em;
+}
+.left_btn{
+    margin-top: 93px;
+}
