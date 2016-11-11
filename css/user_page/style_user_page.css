@@ -2,5 +2,318 @@
 @import '../defoult_classes.css';
 
 .container_user_page{
+    font-family: sans-serif;
+}
+.container_nav_panel{
+    background-color: rgb(255,255,255);
+    padding: 0.5em 5em;
+    position: relative;
+    -webkit-text-align-last: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+}
+.nav_panel{
+    -webkit-text-align-last: left;
+    -moz-text-align-last: left;
+    text-align-last: left;
+}
+.container_logo{
+   margin: 0;
+}
+.nav_panel{
+    display: inline-block;
+}
+.list_nav_panel{
+    display: inline-block;
+}
+.item_list_nav_panel{
+    display: inline-block;
+}
+.link_nav_panel{
+    color: rgb(85,61,15);
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 0 3px;
+}
+.item_list_nav_panel:nth-child(4) :last-child{
+    color: rgb(37,197,204);
+    border: 1px solid;
+    border-radius: 3px;
+}
+input[id="open_close_nav_panel"]{
+    display: none;
+}
+label.open_close_nav_panel{
+    background-color: rgb(85,61,15);
+    width: 2.5em;
+    height: 2.5em;
+    position: relative;
+    cursor: pointer;
+    display: none;
+    vertical-align: bottom;
+}
+.line{
+    transition: 0.3s linear;
+    transition-delay: 0.1s;
+    width: 85%;
+    height: 3px;
+    left: 7.5%;
+    background-color: rgb(255,255,255);
+    position: absolute;
+    margin: auto;
+}
+.one{
+    top: 30%;
+}
+.two{
+    bottom: 30%;
+}
+.user_info{
+    position: relative;
+    padding: 5% 2% 5% 10%;
+}
+.container_user_photo{
+    display: inline-block;
+    padding: 0px 4em;
+    float: left;
+}
+.user_photo{
+    border-radius: 50%;
+}
+.to_pay{
+    margin: 45px 0 20px 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+.container_user_photo .submit_pay_now{
+    margin: 0;
+    width: 160px;
+}
+.info{
+    display: inline-block;
+}
+.user_content{
+    color: rgb(82,57,10);
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.user_name,
+.user_posts,
+.user_followers,
+.user_following{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.more_followers{
+    margin-top: 15px;
+    width: 310px;
+    display: inline-block;
+}
+.content_more_followers{
+    margin: 0;
+}
+.counter_more_followers{
+    color: rgb(37,197,204);
+    font-size: 1.4em;
+    float: right;
+}
+input[type="range"]{
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 
+input[type="range"]{
+    -webkit-appearance: none;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 8px;
+    height: 6px;
+    background-color: color: rgb(37,197,204);
+    cursor: pointer;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: rgb(37,197,204);
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+    background-color: rgb(37,197,204);
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="range"]::-moz-range-track {
+    border: none;
+    border-radius: 8px;
+    height: 6px;
+    background-color: rgb(221,224,225);
+    cursor: pointer;
+}
+input[type="range"]{
+    background-image: -webkit-gradient(
+        linear, left top, right top,
+        color-stop(0.15, rgb(37,197,204) ),
+        color-stop(0.15, rgb(221,224,225) )
+    );
+}
+input[type="range"]{
+    outline: none;
+    border: none;
+}
+input[type="range"]:focus{
+    outline: none;
+    border: none;
+}
+input[type='range']::-moz-focus-outer {
+    border: 0;
+}
+input[type="range"]::-moz-range-progress {
+    background-color: rgb(37,197,204);
+    height: 6px;
+    border-radius: 8px;
+}
+.container_settings input[type="text"]{
+    width: 4em;
+    border: 1px solid;
+    outline: none;
+    padding: 4px 5px;
+    color: rgb(37,197,204);
+    font-size: 1em;
+    text-align: center;
+    transition: 0.2s linear;
+}
+.select_last,
+.add_photos,
+.add_comments{
+    display: block;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+.container_settings input[type="checkbox"]{
+    display: none;
+}
+.container_settings .content{
+    transition: 0.2s linear;
+    margin: 0 0.5em;
+    font-size: 1.2em;
+}
+.container_settings .checkbox:before{
+    content: "\2717";
+    color: rgb(37,197,204);
+    font-size: 1.1em;
+    border: 1px solid;
+    padding: 0 3px;
+}
+.container_settings input:checked ~ .checkbox:before{
+    content: "\2714";
+}
+.container_settings input:checked ~ .content{
+    opacity: 0.4;
+}
+.container_settings input:checked ~ input[type="text"]{
+    opacity: 0.4;
+}
+.container_user_photos{
+    padding: 0 5%;
+}
+.transparent_layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    top: 0;
+    left:0;
+    z-index: -2;
+}
+.container_select_likes_comments{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 1em;
+}
+.container_select_likes_comments:hover .block_content{
+    opacity: 1;
+}
+.bg_container{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+input:checked ~ .block_content{
+    opacity: 1;
+}
+input:checked ~ .block_content label .transparent_layer{
+    z-index: 2;
+}
+input:checked ~ .block_content label .select:before{
+    content: '✓';
+}
+.block_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.2s linear;
+    background-color: rgba(0,0,0,0.6);
+    padding: 22px 42px 76px 42px;
+}
+.container_select{
+    display: block;
+    text-align: center;
+}
+input[type="radio"]{
+    display: none;
+}
+.select:before{
+    content: '\271A';
+    font-size: 18px;
+    color: rgb(255,255,255);
+    padding: 7px 10px;
+    border-radius: 50%;
+    background-color: rgb(37,197,204);
+    cursor: pointer;
+}
+.container_input{
+   margin-top: 25px;
+}
+.container_input .content{
+    color: rgb(255,255,255);
+    font-size: 1.2em;
+    padding: 0;
+    float: left;
+}
+.value{
+    color: rgb(255,255,255);
+    font-size: @font_size;
+    padding: 4px 15px;
+    float: right;
+    border: 1px solid;
+    border-radius: 3px;
+    width: 90px;
+    text-align: center;
+}
+.likes,
+.comments{
+    font-size: 1.3em;
+    color: rgb(255,255,255);
+}
+.likes:after{
+    content: "❤";
+    color: rgb(255,255,255);
+    margin-right: 1em;
+}
+.comments:after{
+    content: "✉";
+    color: rgb(255,255,255);
 }

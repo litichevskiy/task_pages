@@ -73,7 +73,6 @@
     }
     .pointer_right{
         margin-left: 20%;
-        vertical-align: bottom;
     }
 }
 @media (max-width:800px){
