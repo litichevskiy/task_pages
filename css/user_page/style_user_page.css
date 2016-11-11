@@ -181,6 +181,10 @@ input[type="range"]::-moz-range-progress {
     height: 6px;
     border-radius: 8px;
 }
+.container_settings{
+    margin-top: 1em;
+    display: inline-block;
+}
 .container_settings input[type="text"]{
     width: 4em;
     border: 1px solid;
