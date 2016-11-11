@@ -1,10 +1,6 @@
 @import '../reset.css';
 @import '../defoult_classes.css';
 
-@font-face {
-    font-family: open_sans_semibold;
-    src: url(../fonts/open_sans_semibold.ttf);
-}
 .container_page_id{
     text-align: center;
     width: 100%;
@@ -26,27 +22,29 @@
 .header_block_content{
     color: rgb(114,114,114);
     text-transform: uppercase;
-    margin: 0 0 37px 55px;
-    padding-left: 22px;
+    text-align: center;
     font-weight: 600;
+    margin-bottom: 1.3em;
 }
 .order_id{
     color: rgb(63,63,63);
     box-shadow: 0px 13px 70px -1px rgb(236, 236, 236);
-    padding: 17px 0px 17px 23px;
+    padding: 1em 0;
     border-radius: 5px;
-    margin: 0 63px 43px 60px;
     font-weight: 400;
     font-size: 1.1em;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 .content{
     color: rgb(114,114,114);
-    padding: 0 70px 42px 68px;
-    margin: 0;
+    margin: 2em auto;
     line-height: 1.9;
     font-family: sans-serif;
     font-size: 0.9em;
     letter-spacing: -0.5px;
+    width: 70%;
 }
 .link_home_page{
     color: rgb(2,196,205);

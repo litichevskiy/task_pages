@@ -13,7 +13,7 @@
 }
 @media(max-width: 870px){
     .user_info{
-        padding: 5% 10%;
+        padding: 5% 5%;
     }
     .container_user_photo{
         float: none;
@@ -124,7 +124,7 @@
         padding: 0.5em 1em;
     }
     .nav_panel{
-        width: 100%;
+        width: 80%;
     }
     label.open_close_nav_panel{
         vertical-align: sub;
@@ -148,13 +148,12 @@
         display: block;
     }
     .container_settings .content{
-        font-size: 1.4em;
+        font-size: 1.2em;
+        margin: 0 0.2em;
     }
     .select_last, .add_photos, .add_comments{
-        margin-bottom: 1.5em;
-    }
-    input:active ~ .block_content label .transparent_layer{
-        z-index: 2;
+        margin-bottom: 1.2em;
+        line-height: 1.8;
     }
     input:active ~ .block_content label .select:before{
         content: '✓';

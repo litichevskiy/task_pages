@@ -16,11 +16,6 @@
         margin: auto;
         padding-top: 2.3em;
     }
-    .close_block_payment_method{
-        position: relative;
-        right: -85%;
-        top: 20px;
-    }
     .payment_method .content{
         margin-top: 2em;
         width: 80%;
@@ -56,12 +51,7 @@
     .submit_pay_now{
         width: 70%;
     }
-    .close_block_payment_method{
-        position: relative;
-        top: 20px;
-        left: 90%;
-    }
     .header_block_payment_method{
-        margin-top: 25px;
+        margin-top: 2.5em;
     }
 }

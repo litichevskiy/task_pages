@@ -1,4 +1,7 @@
 @media (max-width:960px){
+    .container_login_page{
+        background-image: url(../../img/sharkgram/small_bg.png);
+    }
     .content_block{
         width: 70%;
     }
@@ -10,24 +13,17 @@
     }
     .content_block{
         width: 30em;
-        padding: 0 0 3em 2em;
+        padding: 0 0 3em 0;
         margin: auto;
+        text-align: center;
     }
     .submit_login,
     input[name="user_login"]{
         width: 100%;
     }
     .header_content_block ~ form{
-        width: 90%;
-    }
-}
-@media (max-width:800px){
-    .bg_container_login_page{
-        display: none;
-    }
-    .bg_phone{
-        display: inline-block;
-        opacity: 0.6;
+        width: 80%;
+        margin: auto;
     }
 }
 @media (max-width:500px){
@@ -72,12 +68,5 @@
     }
     .submit_login{
         margin-top: 1em;
-    }
-    .bg_container_login_page{
-        display: none;
-    }
-    .bg_phone{
-        display: inline-block;
-        opacity: 0.6;
     }
 }

@@ -7,23 +7,15 @@
 :-ms-input-placeholder      { color: rgb(255, 255, 255); }
 
 .container_main_page{
+    font-family: sans-serif;
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 100%;
-    font-family: sans-serif;
-    padding-bottom: 2em;
-}
-.img_main_page{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-img[src*="bg_main_page_small_device"]{
-    display: none;
+    background-image: url(../../img/main_page/bg_main_page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header{
     background-color: transparent;
@@ -41,13 +33,14 @@ img[src*="bg_main_page_small_device"]{
 .main_header{
     color: rgb(255, 255, 255);
     font-size: 3em;
+    margin: 0;
 }
 .content_main_header{
     font-size: 0.55em;
     margin-top: 30px;
 }
 .block_content_main_page form{
-    margin-top: 100px;
+    margin-top: 5em;
 }
 .get_popular{
     color: rgb(255,255,255);
@@ -69,8 +62,8 @@ input[name="user_profile_name"]{
     float: left;
     font-size: 1em;
 }
-.pointer_right{
-    margin-left: 0.5em;
+.get_popular:after{
+    content: "\2192";
     font-size: 2em;
     line-height: 0.1;
     vertical-align: middle;

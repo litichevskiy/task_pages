@@ -3,20 +3,13 @@
 
 .container_login_page{
     width: 100%;
-    position: relative;
-}
-.bg_container_login_page,
-.bg_phone{
     height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: 0;
-    z-index: -1;
-}
-.bg_phone{
-    display: none;
+    bottom: 0;
+    background-image: url(../../img/sharkgram/sharkgram_bg.png);
+    background-size: cover;
+    overflow: auto;
 }
 .header{
     background-color: transparent;

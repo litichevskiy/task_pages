@@ -1,22 +1,4 @@
 @media (max-width:800px){
-    .block_content{
-        width: 90%;
-        margin: 1em auto;
-    }
-    .order_id,
-    .header_block_content{
-        width: 50%;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 1em;
-    }
-    .content{
-        width: 50%;
-        padding-left: 0;
-        padding-right: 0;
-        margin: 2em auto;
-        margin-bottom: 0;
-    }
     .link_home_page{
         width: 50%;
         display: block;
@@ -25,18 +7,14 @@
     }
 }
 @media (max-width:700px){
-    .block_content{
-        width: 95%;
-    }
-    .header_block_content{
-        width: 90%;
-    }
-    .content{
-        width: 50%;
-    }
     .link_home_page{
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+@media (max-width:500px){
+    .block_content{
+        width: 90%;
     }
 }
 @media screen and (max-device-width:480px){
@@ -47,10 +25,6 @@
     .block_content{
         width: 95%;
         margin: 1em auto;
-    }
-    .header_block_content{
-        text-align: center;
-        padding-left: 0;
     }
     .content{
         margin-top: 2em;

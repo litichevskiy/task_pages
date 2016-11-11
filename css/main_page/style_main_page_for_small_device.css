@@ -22,12 +22,6 @@
         margin-top: 2em;
         width: 100%;
     }
-    img[src*="bg_main_page"]{
-        display: none;
-    }
-    img[src*="bg_main_page_small_device"]{
-        display: inline-block;
-    }
     .main_header .content_main_header{
         margin-top: 10px;
     }
@@ -56,12 +50,6 @@
     .container_main_page{
         padding-bottom: 2.5em;
     }
-    img[src*="bg_main_page"]{
-        display: none;
-    }
-    img[src*="bg_main_page_small_device"]{
-        display: inline-block;
-    }
     input[name="user_profile_name"],
     .get_popular{
         float: none;
@@ -76,6 +64,9 @@
     }
 }
 @media (max-width:800px){
+    .container_main_page{
+        background-image: url(../../img/main_page/bg_main_page_small_device.png);
+    }
     .main_header{
         font-size: 2.2em;
     }
@@ -83,9 +74,5 @@
 @media(max-width:600px){
     .block_content_main_page{
         width: 90%;
-    }
-    .img_main_page{
-        height: 100%;
-        object-fit: cover;
     }
 }
