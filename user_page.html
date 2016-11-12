@@ -17,7 +17,7 @@
                 <img src="img/img_page_id/small_logo.png" alt="">
                 <h1 class="header_sharkgram">Sharkgram</h1>
             </header>
-            <input type="checkbox" id="open_close_nav_panel"/>
+            <input type="checkbox" id="open_close_nav_panel" class="hidden set_visibility_nav_panel" />
             <label class="open_close_nav_panel" for="open_close_nav_panel">
                 <div class="line one"></div>
                 <div class="line two"></div>
@@ -39,7 +39,7 @@
             <div class="container_user_photo">
                 <img class="user_photo" src="img/user_page/user_photo.jpg" alt="">
                 <div class="to_pay">100$ to pay</div>
-                <form>
+                <form class="form_pay_now">
                     <button class="btn submit_pay_now" type="submit">Pay now</button>
                 </form>
             </div>
@@ -55,28 +55,28 @@
                 <div class="more_followers">
                     <span class="user_content content_more_followers">More followers</span>
                     <span class="counter_more_followers">+500</span>
-                    <input type="range" min="0" max="800" step="1" value="40">
+                    <input type="range" min="0" max="800" step="1" value="40" class="input_range">
                 </div>
                 <div class="container_settings">
                     <label class="select_last">
-                        <input type="checkbox" />
+                        <input type="checkbox" class="hidden input_container_settings" />
                         <span class="checkbox"></span>
                         <span class="content">Select last</span>
-                        <input type="text" name="" value="1000">
+                        <input type="text" name="" value="1000" class="select_value">
                         <span class="content">pictures</span>
                     </label>
                     <label class="add_photos">
-                        <input type="checkbox" />
+                        <input type="checkbox" class="hidden input_container_settings" />
                         <span class="checkbox"></span>
                         <span class="content">Add to your selected photos</span>
-                        <input type="text" name="" value="1000">
+                        <input type="text" value="1000" class="select_value">
                         <span class="content">likes</span>
                     </label>
                     <label class="add_comments">
-                        <input type="checkbox" />
+                        <input type="checkbox" class="hidden input_container_settings" />
                         <span class="checkbox"></span>
                         <span class="content">Add to your selected photos</span>
-                        <input type="text" name="" value="1000">
+                        <input type="text" value="1000" class="select_value">
                         <span class="content">comments</span>
                     </label>
                 </div>
@@ -85,20 +85,20 @@
         <div class="container_user_photos">
             <div class="container_select_likes_comments">
                 <img class="bg_container" src="img/user_page/bg_2.png" alt="">
-                <input type="checkbox" name="select" id="user_setting1">
-                <label class="container_select" for="user_setting1">
+                <label class="container_select">
+                    <input type="checkbox"  class="hidden select_photo">
                     <span class="select"></span>
                 </label>
                 <div class="block_content">
                     <div class="container_input first_block">
                         <span class="content">Likes</span>
                         <span class="value one">+200</span>
-                        <input type="range" class="input_1" />
+                        <input type="range" class="input_1 input_range"/>
                     </div>
                     <div class="container_input last_block">
                         <span class="content">Comments</span>
                         <span class="value two">+200</span>
-                        <input type="range" class="input_2" min="0" max="800" step="1" value="40">
+                        <input type="range" class="input_2 input_range" min="0" max="800" step="1" value="40">
                         <span class="likes">+200</span>
                         <span class="comments">+30</span>
                     </div>
@@ -106,20 +106,20 @@
             </div>
             <div class="container_select_likes_comments">
                 <img class="bg_container" src="img/user_page/bg_0.png" alt="">
-                <input type="checkbox" name="select2" id="user_setting2">
-                <label class="container_select" for="user_setting2">
+                <label class="container_select">
+                    <input type="checkbox" class="hidden select_photo">
                     <span class="select"></span>
                 </label>
                 <div class="block_content">
                     <div class="container_input first_block">
                         <span class="content">Likes</span>
                         <span class="value three">+200</span>
-                        <input type="range" class="input_3" />
+                        <input type="range" class="input_3 input_range"/>
                     </div>
                     <div class="container_input last_block">
                         <span class="content">Comments</span>
                         <span class="value four">+200</span>
-                        <input type="range" class="input_4" min="0" max="800" step="1" value="40">
+                        <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
                         <span class="likes">+200</span>
                         <span class="comments">+30</span>
                     </div>
@@ -127,20 +127,20 @@
             </div>
             <div class="container_select_likes_comments">
                 <img class="bg_container" src="img/user_page/bg_1.png" alt="">
-                <input type="checkbox" name="select3" id="user_setting3">
-                <label class="container_select" for="user_setting3">
+                <label class="container_select">
+                    <input type="checkbox"  class="hidden select_photo">
                     <span class="select"></span>
                 </label>
                 <div class="block_content">
                     <div class="container_input first_block">
                         <span class="content">Likes</span>
                         <span class="value five">+200</span>
-                        <input type="range" class="input_5" />
+                        <input type="range" class="input_5 input_range"/>
                     </div>
                     <div class="container_input last_block">
                         <span class="content">Comments</span>
                         <span class="value six">+200</span>
-                        <input type="range" class="input_6" min="0" max="800" step="1" value="40">
+                        <input type="range" class="input_range input_6" min="0" max="800" step="1" value="40">
                         <span class="likes">+200</span>
                         <span class="comments">+30</span>
                     </div>

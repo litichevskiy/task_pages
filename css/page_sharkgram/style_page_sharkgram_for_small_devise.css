@@ -18,10 +18,10 @@
         text-align: center;
     }
     .submit_login,
-    input[name="user_login"]{
+    .user_login{
         width: 100%;
     }
-    .header_content_block ~ form{
+    .header_content_block ~ .form_user_login{
         width: 80%;
         margin: auto;
     }
@@ -54,7 +54,7 @@
         margin-top: 30px;
         line-height: 1.2;
     }
-    input[name="user_login"]{
+    .user_login{
         margin:auto;
         margin-top: 2em;
         padding: 15px 15px;

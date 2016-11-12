@@ -11,10 +11,10 @@
     .img_main_page{
         height: 100%;
     }
-    .block_content_main_page form{
+    .block_content_main_page .form_user__profile_name{
         margin-top: 0;
     }
-    input[name="user_profile_name"]{
+    .user_profile_name{
         float: none;
     }
     .get_popular{
@@ -50,7 +50,7 @@
     .container_main_page{
         padding-bottom: 2.5em;
     }
-    input[name="user_profile_name"],
+    .user_profile_name,
     .get_popular{
         float: none;
         width: 90%;

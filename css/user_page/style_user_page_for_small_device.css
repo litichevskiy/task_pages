@@ -21,7 +21,7 @@
         text-align: center;
         padding-bottom: 2em;
     }
-    .container_user_photo form{
+    .container_user_photo .form_pay_now{
         display: inline-block;
     }
     .info,
@@ -35,7 +35,7 @@
     }
 }
 @media(max-width: 800px){
-    label.open_close_nav_panel{
+    .open_close_nav_panel{
         display: inline-block;
     }
     .nav_panel{
@@ -82,36 +82,36 @@
         background-color: rgb(85,61,15);
         padding: 16px 12px 16px 12px;
     }
-    input[id="open_close_nav_panel"]:checked ~ .nav_panel{
+    .set_visibility_nav_panel:checked ~ .nav_panel{
         left: 0;
     }
-    input[id="open_close_nav_panel"]:checked ~ label.open_close_nav_panel .one{
+    .set_visibility_nav_panel:checked ~ .open_close_nav_panel .one{
         transform: rotate(45deg);
         top: 47%;
     }
-    input[id="open_close_nav_panel"]:checked ~ label.open_close_nav_panel .two{
+    .set_visibility_nav_panel:checked ~ .open_close_nav_panel .two{
         transform: rotate(135deg);
         bottom: 43%;
     }
-    input[id="open_close_nav_panel"]:checked ~ .nav_panel .list_nav_panel :nth-child(1){
+    .set_visibility_nav_panel:checked ~ .nav_panel .list_nav_panel :nth-child(1){
         transition-delay: 0.28s;
         top: 0;
         opacity: 1;
         padding-left: 2em;
     }
-    input[id="open_close_nav_panel"]:checked ~ .nav_panel .list_nav_panel :nth-child(2){
+    .set_visibility_nav_panel:checked ~ .nav_panel .list_nav_panel :nth-child(2){
         transition-delay: 0.38s;
         top: 15%;
         opacity: 1;
         padding-left: 2em;
     }
-    input[id="open_close_nav_panel"]:checked ~ .nav_panel .list_nav_panel :nth-child(3){
+    .set_visibility_nav_panel:checked ~ .nav_panel .list_nav_panel :nth-child(3){
         transition-delay: 0.48s;
         top: 30%;
         opacity: 1;
         padding-left: 2em;
     }
-    input[id="open_close_nav_panel"]:checked ~ .nav_panel .list_nav_panel :nth-child(4){
+    .set_visibility_nav_panel:checked ~ .nav_panel .list_nav_panel :nth-child(4){
         transition-delay: 0.58s;
         top: 45%;
         opacity: 1;
@@ -126,7 +126,7 @@
     .nav_panel{
         width: 80%;
     }
-    label.open_close_nav_panel{
+    .open_close_nav_panel{
         vertical-align: sub;
     }
     .item_list_nav_panel:nth-child(4) :last-child{
@@ -140,7 +140,7 @@
         display: block;
         text-align: center;
     }
-    .container_user_photo form{
+    .container_user_photo .form_pay_now{
         display: inline-block;
     }
     .info,
@@ -155,10 +155,17 @@
         margin-bottom: 1.2em;
         line-height: 1.8;
     }
-    input:active ~ .block_content label .select:before{
+    .select_photo:active ~ .block_content .select:before{
         content: '✓';
     }
     .container_select_likes_comments{
         margin: 1em 0em 0 0;
+    }
+    .select:before{
+        width: 1.5em;
+        height: 1.5em;
+        display: inline-block;
+        padding: 5px 5px;
+        line-height: 1.6;
     }
 }

@@ -12,78 +12,33 @@
             step : 1,
             value : 200,
             content : '+'
-        }),
+        });
 
-        inputRange_2 = new ConstrInputRange({
-            input : document.querySelector('input[type="range"].input_1'),
-            valueElement : document.querySelector('.value.one'),
-            colorDefault : 'rgb(221,224,225)',
-            colorSelect  : 'rgb(37,197,204)',
-            min : 0,
-            max : 400,
-            step : 1,
-            value : 200,
-            content : '+'
-        }),
+        var list = document.querySelectorAll('.container_select_likes_comments');
 
-        inputRange_3 = new ConstrInputRange({
-            input : document.querySelector('input[type="range"].input_2'),
-            valueElement : document.querySelector('.value.two'),
-            colorDefault : 'rgb(221,224,225)',
-            colorSelect  : 'rgb(37,197,204)',
-            min : 0,
-            max : 400,
-            step : 1,
-            value : 200,
-            content : '+'
-        }),
+        list.forEach = [].forEach;
 
-        inputRange_4 = new ConstrInputRange({
-            input : document.querySelector('input[type="range"].input_3'),
-            valueElement : document.querySelector('.value.three'),
-            colorDefault : 'rgb(221,224,225)',
-            colorSelect  : 'rgb(37,197,204)',
-            min : 0,
-            max : 400,
-            step : 1,
-            value : 200,
-            content : '+'
-        }),
+        list.forEach(function( item ){
 
-        inputRange_4 = new ConstrInputRange({
-            input : document.querySelector('input[type="range"].input_4'),
-            valueElement : document.querySelector('.value.four'),
-            colorDefault : 'rgb(221,224,225)',
-            colorSelect  : 'rgb(37,197,204)',
-            min : 0,
-            max : 400,
-            step : 1,
-            value : 200,
-            content : '+'
-        }),
+            var inputs = item.querySelectorAll('input[type="range"]'),
+                valueElements = item.querySelectorAll('.value'),
+                temp;
 
-        inputRange_4 = new ConstrInputRange({
-            input : document.querySelector('input[type="range"].input_5'),
-            valueElement : document.querySelector('.value.five'),
-            colorDefault : 'rgb(221,224,225)',
-            colorSelect  : 'rgb(37,197,204)',
-            min : 0,
-            max : 400,
-            step : 1,
-            value : 200,
-            content : '+'
-        }),
+            for ( var i = 0; i < inputs.length; i++ ){
 
-        inputRange_4 = new ConstrInputRange({
-            input : document.querySelector('input[type="range"].input_6'),
-            valueElement : document.querySelector('.value.six'),
-            colorDefault : 'rgb(221,224,225)',
-            colorSelect  : 'rgb(37,197,204)',
-            min : 0,
-            max : 400,
-            step : 1,
-            value : 200,
-            content : '+'
+                temp = new ConstrInputRange({
+
+                    input : inputs[i],
+                    valueElement : valueElements[i],
+                    colorDefault : 'rgb(221,224,225)',
+                    colorSelect  : 'rgb(37,197,204)',
+                    min : 0,
+                    max : 400,
+                    step : 1,
+                    value : 200,
+                    content : '+'
+                });
+            }
         });
     }
 

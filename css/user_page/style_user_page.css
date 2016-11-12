@@ -1,16 +1,6 @@
 @import '../reset.css';
 @import '../defoult_classes.css';
 
-@font-face {
-    font-family: fontello;
-    src: url('../../fonts/fontello/fontello.eot?31919061');
-    src: url('../../fonts/fontello/fontello.eot?31919061#iefix') format('embedded-opentype'),
-    url('../../fonts/fontello/fontello.woff?31919061') format('woff'),
-    url('../../fonts/fontello/fontello.ttf?31919061') format('truetype'),
-    url('../../fonts/fontello/fontello.svg?31919061#fontello') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 .container_user_page{
     font-family: sans-serif;
 }
@@ -51,10 +41,10 @@
     border: 1px solid;
     border-radius: 3px;
 }
-input[id="open_close_nav_panel"]{
+.hidden{
     display: none;
 }
-label.open_close_nav_panel{
+.open_close_nav_panel{
     background-color: rgb(85,61,15);
     width: 2.5em;
     height: 2.5em;
@@ -129,13 +119,12 @@ label.open_close_nav_panel{
     font-size: 1.4em;
     float: right;
 }
-input[type="range"]{
+.input_range{
     width: 100%;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-
-input[type="range"]{
+.input_range{
     -webkit-appearance: none;
     border: 1px solid rgb(255,255,255);
     border-radius: 8px;
@@ -143,7 +132,7 @@ input[type="range"]{
     background-color: color: rgb(37,197,204);
     cursor: pointer;
 }
-input[type='range']::-webkit-slider-thumb {
+.input_range::-webkit-slider-thumb {
     -webkit-appearance: none;
     background-color: rgb(37,197,204);
     border: none;
@@ -152,7 +141,7 @@ input[type='range']::-webkit-slider-thumb {
     border-radius: 10px;
     cursor: pointer;
 }
-input[type="range"]::-moz-range-thumb {
+.input_range::-moz-range-thumb {
     background-color: rgb(37,197,204);
     border: none;
     width: 20px;
@@ -160,32 +149,32 @@ input[type="range"]::-moz-range-thumb {
     border-radius: 10px;
     cursor: pointer;
 }
-input[type="range"]::-moz-range-track {
+.input_range::-moz-range-track {
     border: none;
     border-radius: 8px;
     height: 6px;
     background-color: rgb(221,224,225);
     cursor: pointer;
 }
-input[type="range"]{
+.input_range{
     background-image: -webkit-gradient(
         linear, left top, right top,
         color-stop(0.15, rgb(37,197,204) ),
         color-stop(0.15, rgb(221,224,225) )
     );
 }
-input[type="range"]{
+.input_range{
     outline: none;
     border: none;
 }
-input[type="range"]:focus{
+.input_range:focus{
     outline: none;
     border: none;
 }
-input[type='range']::-moz-focus-outer {
+.input_range::-moz-focus-outer {
     border: 0;
 }
-input[type="range"]::-moz-range-progress {
+.input_range::-moz-range-progress {
     background-color: rgb(37,197,204);
     height: 6px;
     border-radius: 8px;
@@ -193,7 +182,7 @@ input[type="range"]::-moz-range-progress {
 .container_settings{
     margin-top: 1em;
 }
-.container_settings input[type="text"]{
+.container_settings .select_value{
     width: 4em;
     border: 1px solid;
     outline: none;
@@ -210,9 +199,6 @@ input[type="range"]::-moz-range-progress {
     margin-bottom: 0.5em;
     cursor: pointer;
 }
-.container_settings input[type="checkbox"]{
-    display: none;
-}
 .container_settings .content{
     transition: 0.2s linear;
     margin: 0 0.5em;
@@ -225,13 +211,13 @@ input[type="range"]::-moz-range-progress {
     border: 1px solid;
     padding: 0 3px;
 }
-.container_settings input:checked ~ .checkbox:before{
+.input_container_settings:checked ~ .checkbox:before{
     content: "\2714";
 }
-.container_settings input:checked ~ .content{
+.input_container_settings:checked ~ .content{
     opacity: 0.4;
 }
-.container_settings input:checked ~ input[type="text"]{
+.input_container_settings:checked ~ .select_value{
     opacity: 0.4;
 }
 .container_user_photos{
@@ -243,9 +229,6 @@ input[type="range"]::-moz-range-progress {
     flex-direction: row;
     flex-wrap: wrap;
 }
-input[type="checkbox"]{
-    display: none;
-}
 .container_select_likes_comments{
     position: relative;
     width: 300px;
@@ -256,7 +239,7 @@ input[type="checkbox"]{
 .container_select_likes_comments:hover .block_content{
     opacity: 1;
 }
-.container_select_likes_comments:hover .container_select{
+.container_select_likes_comments:hover .select{
     z-index: 1;
 }
 .bg_container{
@@ -264,10 +247,10 @@ input[type="checkbox"]{
     height: 100%;
     object-fit: cover;
 }
-input:checked ~ label .select:before{
-    content: '✓';
+.select_photo:checked ~ .select:before{
+    content: '\2713';
 }
-input:checked ~ label{
+.select_photo:checked ~ .select{
     z-index: 2;
 }
 .block_content{
@@ -281,7 +264,7 @@ input:checked ~ label{
     background-color: rgba(0,0,0,0.6);
     padding: 2em 2em;
 }
-.container_select{
+.select{
     text-align: center;
     position: relative;
     z-index: -1;
@@ -289,7 +272,7 @@ input:checked ~ label{
     left: 45%;
 }
 .select:before{
-    content: '\271A';
+    content: '\2717';
     font-size: 18px;
     color: rgb(255,255,255);
     padding: 7px 10px;

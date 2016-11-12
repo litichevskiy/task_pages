@@ -1,3 +1,13 @@
+@font-face {
+    font-family: fontello;
+    src: url('../fonts/fontello/fontello.eot?31919061');
+    src: url('../fonts/fontello/fontello.eot?31919061#iefix') format('embedded-opentype'),
+    url('../fonts/fontello/fontello.woff?31919061') format('woff'),
+    url('../fonts/fontello/fontello.ttf?31919061') format('truetype'),
+    url('../fonts/fontello/fontello.svg?31919061#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 .header{
     text-align: center;
     border-bottom: 1px solid rgb(237,238,238);

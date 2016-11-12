@@ -16,6 +16,8 @@
     background-image: url(../../img/main_page/bg_main_page.png);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: auto;
+    padding-bottom: 2em;
 }
 .header{
     background-color: transparent;
@@ -39,7 +41,7 @@
     font-size: 0.55em;
     margin-top: 30px;
 }
-.block_content_main_page form{
+.block_content_main_page .form_user__profile_name{
     margin-top: 5em;
 }
 .get_popular{
@@ -53,14 +55,15 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-input[name="user_profile_name"]{
+.user_profile_name{
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid !important;
     color: rgb(255,255,255);
     padding: 12px 25px;
     background-color: transparent;
     float: left;
     font-size: 1em;
+    width: 60%;
 }
 .get_popular:after{
     content: "\2192";

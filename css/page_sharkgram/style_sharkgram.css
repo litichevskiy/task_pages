@@ -39,7 +39,7 @@
     letter-spacing: 1px;
     padding: 10px 0 0 2px;
 }
-input[name="user_login"]{
+.user_login{
     border: 1px solid rgb(164,162,159);
     color: rgb(159,155,148);
     border-radius: 5px;
