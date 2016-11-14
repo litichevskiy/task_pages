@@ -115,7 +115,7 @@
     margin: 0;
 }
 .counter_more_followers{
-    color: rgb(37,197,204);
+    color: rgb(37,197,204) !important;
     font-size: 1.4em;
     float: right;
 }
@@ -291,7 +291,6 @@
 }
 .value{
     color: rgb(255,255,255);
-    font-size: @font_size;
     padding: 4px 15px;
     float: right;
     border: 1px solid;
