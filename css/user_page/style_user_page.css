@@ -230,7 +230,7 @@
     font-size: 1.8em;
 }
 .container_settings .checkbox:before{
-    content: "\2715";
+    content: "✕";
     color: rgb(37,197,204);
     font-size: 1.8em;
     display: inline-block;
@@ -238,9 +238,12 @@
     height: 1em;
     text-align: center;
     padding-top: 2px;
+    border: 1px solid;
+    line-height: 0.8;
 }
 .input_container_settings:checked ~ .checkbox:before{
-    content: "\2713";
+    content: "✓";
+
 }
 .input_container_settings:checked ~ .content{
     opacity: 0.4;
@@ -359,7 +362,4 @@
     color: rgb(255,255,255);
     font-family: fontello;
     margin-left: 0.2em;
-}
-span.checkbox{
-    border: 1px solid rgb(37,197,204);
 }
