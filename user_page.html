@@ -35,175 +35,398 @@
                 </ul>
             </nav>
         </div>
-        <section class="user_info">
-            <div class="container_user_photo">
-                <img class="user_photo" src="img/user_page/user_photo.jpg" alt="">
-                <div class="to_pay">100$ to pay</div>
-                <form class="form_pay_now">
-                    <button class="btn submit_pay_now" type="submit">Pay now</button>
-                </form>
-            </div>
-            <div class="block_user_info">
-                <div class="info">
-                    <div class="user_content user_login">ron_3dmotion</div>
-                    <div class="user_content user_name">Игорь ron</div>
-                    <span class="user_content user_posts">
-                        <span class="count_bold">84</span>
-                        Posts
-                    </span>
-                    <span class="user_content user_followers">
-                        <span class="count_bold">316</span>
-                        Followers
-                    </span>
-                    <span class="user_content user_following">
-                        <span class="count_bold">268</span>
-                        Following
-                    </span>
+        <div class="main_block">
+            <section class="user_info">
+                <div class="container_user_photo">
+                    <img class="user_photo" src="img/user_page/user_photo.jpg" alt="">
+                    <div class="to_pay">100$ to pay</div>
+                    <form class="form_pay_now">
+                        <button class="btn submit_pay_now" type="submit">Pay now</button>
+                    </form>
                 </div>
-                <br/>
-                <div class="more_followers container_input_range">
-                    <span class="user_content content_more_followers">More followers</span>
-                    <span class="value counter_more_followers">+500</span>
-                    <input type="range" min="0" max="800" step="1" value="40" class="input_range">
+                <div class="block_user_info">
+                    <div class="info">
+                        <div class="user_content user_login">ron_3dmotion</div>
+                        <div class="user_content user_name">Игорь ron</div>
+                        <span class="user_content user_posts">
+                            <span class="count_bold">84</span>
+                            Posts
+                        </span>
+                        <span class="user_content user_followers">
+                            <span class="count_bold">316</span>
+                            Followers
+                        </span>
+                        <span class="user_content user_following">
+                            <span class="count_bold">268</span>
+                            Following
+                        </span>
+                    </div>
+                    <br/>
+                    <div class="more_followers container_input_range">
+                        <span class="user_content content_more_followers">More followers</span>
+                        <span class="value counter_more_followers">+500</span>
+                        <input type="range" min="0" max="800" step="1" value="40" class="input_range">
+                    </div>
+                    <div class="container_settings">
+                        <label class="select_last">
+                            <input type="checkbox" class="hidden input_container_settings" />
+                            <span class="checkbox"></span>
+                            <span class="content">Select last</span>
+                            <input type="text" name="" value="1000" class="select_value">
+                            <span class="content">pictures</span>
+                        </label>
+                        <label class="add_likes">
+                            <input type="checkbox" class="hidden input_container_settings" />
+                            <span class="checkbox"></span>
+                            <span class="content">Add to your selected photos</span>
+                            <input type="text" value="1000" class="select_value">
+                            <span class="content">likes</span>
+                        </label>
+                        <label class="add_views">
+                            <input type="checkbox" class="hidden input_container_settings" />
+                            <span class="checkbox"></span>
+                            <span class="content">Add to your selected photos</span>
+                            <input type="text" value="1000" class="select_value">
+                            <span class="content">comments</span>
+                        </label>
+                    </div>
                 </div>
-                <div class="container_settings">
-                    <label class="select_last">
-                        <input type="checkbox" class="hidden input_container_settings" />
-                        <span class="checkbox"></span>
-                        <span class="content">Select last</span>
-                        <input type="text" name="" value="1000" class="select_value">
-                        <span class="content">pictures</span>
+            </section>
+            <div class="container_user_photos">
+                <div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_2.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox"  class="hidden select_photo">
+                        <span class="select"></span>
                     </label>
-                    <label class="add_photos">
-                        <input type="checkbox" class="hidden input_container_settings" />
-                        <span class="checkbox"></span>
-                        <span class="content">Add to your selected photos</span>
-                        <input type="text" value="1000" class="select_value">
-                        <span class="content">likes</span>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value one">+200</span>
+                            <input type="range" class="input_1 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value two">+200</span>
+                            <input type="range" class="input_2 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
                     </label>
-                    <label class="add_comments">
-                        <input type="checkbox" class="hidden input_container_settings" />
-                        <span class="checkbox"></span>
-                        <span class="content">Add to your selected photos</span>
-                        <input type="text" value="1000" class="select_value">
-                        <span class="content">comments</span>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
                     </label>
-                </div>
-            </div>
-        </section>
-        <div class="container_user_photos">
-            <div class="container_select_likes_comments container_input_range">
-                <img class="bg_container" src="img/user_page/bg_2.png" alt="">
-                <label class="container_select">
-                    <input type="checkbox"  class="hidden select_photo">
-                    <span class="select"></span>
-                </label>
-                <div class="block_content">
-                    <div class="container_input first_block">
-                        <span class="content">Likes</span>
-                        <span class="value one">+200</span>
-                        <input type="range" class="input_1 input_range"/>
-                    </div>
-                    <div class="container_input last_block">
-                        <span class="content">Comments</span>
-                        <span class="value two">+200</span>
-                        <input type="range" class="input_2 input_range" min="0" max="800" step="1" value="40">
-                    </div>
-                    <div class="container_input">
-                        <span class="likes">+200</span>
-                        <span class="comments">+30</span>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container_select_likes_comments container_input_range">
-                <img class="bg_container" src="img/user_page/bg_0.png" alt="">
-                <label class="container_select">
-                    <input type="checkbox" class="hidden select_photo">
-                    <span class="select"></span>
-                </label>
-                <div class="block_content">
-                    <div class="container_input first_block">
-                        <span class="content">Likes</span>
-                        <span class="value three">+200</span>
-                        <input type="range" class="input_3 input_range"/>
-                    </div>
-                    <div class="container_input last_block">
-                        <span class="content">Comments</span>
-                        <span class="value four">+200</span>
-                        <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
-                    </div>
-                    <div class="container_input">
-                        <span class="likes">+200</span>
-                        <span class="comments">+30</span>
-                    </div>
-                </div>
-            </div>
-            <div class="container_select_likes_comments container_input_range">
-                <img class="bg_container" src="img/user_page/bg_0.png" alt="">
-                <label class="container_select">
-                    <input type="checkbox" class="hidden select_photo">
-                    <span class="select"></span>
-                </label>
-                <div class="block_content">
-                    <div class="container_input first_block">
-                        <span class="content">Likes</span>
-                        <span class="value three">+200</span>
-                        <input type="range" class="input_3 input_range"/>
-                    </div>
-                    <div class="container_input last_block">
-                        <span class="content">Comments</span>
-                        <span class="value four">+200</span>
-                        <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
-                    </div>
-                    <div class="container_input">
-                        <span class="likes">+200</span>
-                        <span class="comments">+30</span>
+                <div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container_select_likes_comments container_input_range">
-                <img class="bg_container" src="img/user_page/bg_0.png" alt="">
-                <label class="container_select">
-                    <input type="checkbox" class="hidden select_photo">
-                    <span class="select"></span>
-                </label>
-                <div class="block_content">
-                    <div class="container_input first_block">
-                        <span class="content">Likes</span>
-                        <span class="value three">+200</span>
-                        <input type="range" class="input_3 input_range"/>
+                <div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
                     </div>
-                    <div class="container_input last_block">
-                        <span class="content">Comments</span>
-                        <span class="value four">+200</span>
-                        <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
                     </div>
-                    <div class="container_input">
-                        <span class="likes">+200</span>
-                        <span class="comments">+30</span>
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
+                    </div>
+                </div><div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container_select_likes_comments container_input_range">
-                <img class="bg_container" src="img/user_page/bg_0.png" alt="">
-                <label class="container_select">
-                    <input type="checkbox" class="hidden select_photo">
-                    <span class="select"></span>
-                </label>
-                <div class="block_content">
-                    <div class="container_input first_block">
-                        <span class="content">Likes</span>
-                        <span class="value three">+200</span>
-                        <input type="range" class="input_3 input_range"/>
-                    </div>
-                    <div class="container_input last_block">
-                        <span class="content">Comments</span>
-                        <span class="value four">+200</span>
-                        <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
-                    </div>
-                    <div class="container_input">
-                        <span class="likes">+200</span>
-                        <span class="comments">+30</span>
+                <div class="container_select_likes_comments container_input_range">
+                    <img class="bg_container" src="img/user_page/bg_0.png" alt="">
+                    <label class="container_select">
+                        <input type="checkbox" class="hidden select_photo">
+                        <span class="select"></span>
+                    </label>
+                    <div class="block_content">
+                        <div class="container_input first_block">
+                            <span class="content">Likes</span>
+                            <span class="value three">+200</span>
+                            <input type="range" class="input_3 input_range"/>
+                        </div>
+                        <div class="container_input last_block">
+                            <span class="content">Comments</span>
+                            <span class="value four">+200</span>
+                            <input type="range" class="input_4 input_range" min="0" max="800" step="1" value="40">
+                        </div>
+                        <div class="container_input">
+                            <span class="likes">+200</span>
+                            <span class="comments">+30</span>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@
 }
 .container_nav_panel{
     background-color: rgb(255,255,255);
-    padding: 0.5em 5em;
+    padding: 0.5em 4em 0.5em 5em;
     position: relative;
     -webkit-text-align-last: justify;
     -moz-text-align-last: justify;
@@ -23,6 +23,11 @@
 }
 .nav_panel{
     display: inline-block;
+    font-family: 'open-sans', sans-serif;
+}
+.header_sharkgram{
+    color: rgb(82,57,10);
+    letter-spacing: -3pt;
 }
 .list_nav_panel{
     display: inline-block;
@@ -32,7 +37,7 @@
 }
 .link_nav_panel{
     color: rgb(85,61,15);
-    padding: 12px 12px 12px 12px;
+    padding: 12px 8px 12px 8px;
     display: inline-block;
     font-size: 1.3em;
     margin: 0 3px;
@@ -41,6 +46,7 @@
     color: rgb(37,197,204);
     border: 1px solid;
     border-radius: 3px;
+    padding: 4px 15px;
 }
 .hidden{
     display: none;
@@ -72,13 +78,15 @@
 }
 .user_info{
     position: relative;
-    padding: 5% 2% 2% 10%;
+    padding: 5% 2% 2% 6%;
+    font-family: 'OpenSans-Light', sans-serif;
 }
 .container_user_photo{
     display: inline-block;
     padding: 0px 4em;
     float: left;
-    margin-right: 5em;
+    width: 31%;
+    text-align: center;
 }
 .user_photo{
     border-radius: 50%;
@@ -88,31 +96,42 @@
     margin: 45px 0 20px 0;
     font-size: 1.2em;
     text-align: center;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgb(82,57,10);
+}
+.main_block{
+    width: 100%;
+    max-width: 1265px;
+    margin: auto;
 }
 .container_user_photo .submit_pay_now{
     margin: 0;
-    width: 160px;
+    font-family: 'OpenSans-Bold', sans-serif;
+    display: inline-block;
 }
 .block_user_info{
     display: inline-block;
+    padding-left: 1.5%;
 }
 .user_content{
     color: rgb(82,57,10);
-    font-size: 1.4em;
-    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: 'OpenSans-Light', sans-serif;
 }
 .user_name,
 .user_posts,
 .user_followers,
 .user_following{
     margin-right: 10px;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 .count_bold{
     font-weight: 600;
 }
 .more_followers{
-    margin-top: 15px;
     width: 310px;
 }
 .content_more_followers{
@@ -122,6 +141,9 @@
     color: rgb(37,197,204) !important;
     font-size: 1.4em;
     float: right;
+    border: none !important;
+    padding-right: 0 !important;
+    text-align: right !important;
 }
 .input_range{
     width: 100%;
@@ -185,34 +207,40 @@
     margin-top: 1em;
 }
 .container_settings .select_value{
-    width: 4em;
+    width: 4.2em;
     border: 1px solid;
     outline: none;
     padding: 4px 5px;
     color: rgb(37,197,204);
-    font-size: 1em;
+    font-size: 1.8em;
     text-align: center;
     transition: 0.2s linear;
 }
 .select_last,
-.add_photos,
-.add_comments{
+.add_likes,
+.add_views{
     display: block;
     margin-bottom: 0.5em;
     cursor: pointer;
+    color: rgb(82,57,10);
 }
 .container_settings .content{
     transition: 0.2s linear;
-    margin: 0 0.5em;
-    font-size: 1.2em;
+    margin: 0 0.2em;
+    font-size: 1.8em;
 }
 .container_settings .checkbox:before{
-    content: "\2612";
+    content: "\2715";
     color: rgb(37,197,204);
-    font-size: 1.1em;
+    font-size: 1.8em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    padding-top: 2px;
 }
 .input_container_settings:checked ~ .checkbox:before{
-    content: "\2611";
+    content: "\2713";
 }
 .input_container_settings:checked ~ .content{
     opacity: 0.4;
@@ -221,7 +249,7 @@
     opacity: 0.4;
 }
 .container_user_photos{
-    padding: 0 5%;
+    padding: 0 3.8%;
     width: 100%;
     text-align: center;
 }
@@ -234,9 +262,14 @@
 }
 .container_select_likes_comments:hover .block_content{
     opacity: 1;
+    visibility: visible;
 }
 .container_select_likes_comments:hover .select{
     z-index: 1;
+}
+.container_select_likes_comments:hover .container_select{
+    visibility: visible;
+    transition-delay: 0.1s;
 }
 .bg_container{
     width: 100%;
@@ -248,12 +281,13 @@
     left: 0;
     top: 3%;
     text-align: center;
+    visibility: hidden;
 }
 .select_photo:checked ~ .select:before{
     content: '\2713';
 }
 .select_photo:checked ~ .select{
-    z-index: 2;
+    visibility: visible;
 }
 .block_content{
     position: absolute;
@@ -264,14 +298,14 @@
     opacity: 0;
     transition: 0.2s linear;
     background-color: rgba(0,0,0,0.6);
-    padding: 15%;
+    padding: 25% 15% 2% 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    visibility: hidden;
 }
 .select{
     position: relative;
-     z-index: -1;
     width: 2em;
     height: 2em;
     background-color: rgb(37,197,204);
@@ -294,6 +328,7 @@
     font-size: 120%;
     padding: 0;
     float: left;
+    font-family: 'OpenSans-Light', sans-serif;
 }
 .value{
     color: rgb(255,255,255);
@@ -303,11 +338,13 @@
     border-radius: 3px;
     width: 30%;
     text-align: center;
+    margin-bottom: 2%;
 }
 .likes,
 .comments{
     font-size: 120%;
     color: rgb(255,255,255);
+    font-family: 'OpenSans-Light', sans-serif;
 }
 .comments{
     margin-left: 0.5em;
@@ -322,4 +359,7 @@
     color: rgb(255,255,255);
     font-family: fontello;
     margin-left: 0.2em;
+}
+span.checkbox{
+    border: 1px solid rgb(37,197,204);
 }

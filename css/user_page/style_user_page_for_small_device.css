@@ -201,7 +201,6 @@
         margin: 0 0.2em;
     }
     .select_last, .add_photos, .add_comments{
-        margin-bottom: 1.2em;
         line-height: 1.8;
     }
     .select_photo:active ~ .block_content .select:before{
@@ -216,5 +215,20 @@
         display: inline-block;
         padding: 5px 5px;
         line-height: 1.6;
+    }
+    .container_settings .checkbox:before,
+    .container_settings .select_value{
+        font-size: 1.2em;
+    }
+    .user_content{
+        font-size: 1.5em;
+    }
+    .user_name,
+    .user_posts,
+    .user_following{
+        font-size: 1.3em;
+    }
+    .more_followers{
+        margin-top: 0;
     }
 }
