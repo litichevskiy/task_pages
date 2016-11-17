@@ -22,23 +22,19 @@
 .payment_card,
 .payment_cash{
     width: 50%;
-    float: left;
     text-align: center;
     padding-top: 55px;
     position: relative;
-    position: relative;
+    display: table-cell;
 }
 .container_payment_element{
-    display: inline-flex;
+    position: relative;
 }
 .container_btn_submit{
     position: absolute;
     top: 100%;
     width: 100%;
     padding-top: 15%;
-}
-.payment_cash{
-    float: right;
 }
 .payment_method .content{
     color: rgb(36,36,36);

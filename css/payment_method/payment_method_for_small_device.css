@@ -31,14 +31,15 @@
         height: 100%;
         margin: auto;
         left: 0;
+        top: 0;
     }
     .container_payment_element{
         display: block;
     }
     .payment_card,
     .payment_cash{
-        float: none;
         width: 100%;
+        display: block;
     }
     .container_btn_submit{
         position: relative;
