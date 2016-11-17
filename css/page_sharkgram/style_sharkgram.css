@@ -32,12 +32,14 @@
     letter-spacing: 2px;
     margin-top: 30px;
     line-height: 1.4;
+    font-family: 'open-sans', sans-serif;
 }
 .content{
     color: rgb(82,57,10);
     font-size: 1.1em;
     letter-spacing: 1px;
     padding: 10px 0 0 2px;
+    font-family: 'open-sans', sans-serif;
 }
 .user_login{
     border: 1px solid rgb(164,162,159);
@@ -47,6 +49,7 @@
     padding: 10px 10px 10px 22px;
     display: block;
     width: 255px;
+    font-family: 'open-sans', sans-serif;
 }
 .submit_login{
     background-color: rgb(7,211,15);
@@ -55,4 +58,5 @@
     text-align: center;
     margin-top: 10px;
     display: block;
+    font-family: 'open-sans', sans-serif;
 }

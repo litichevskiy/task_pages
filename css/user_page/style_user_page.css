@@ -27,7 +27,6 @@
 }
 .header_sharkgram{
     color: rgb(82,57,10);
-    letter-spacing: -3pt;
 }
 .list_nav_panel{
     display: inline-block;
@@ -243,7 +242,6 @@
 }
 .input_container_settings:checked ~ .checkbox:before{
     content: "✓";
-
 }
 .input_container_settings:checked ~ .content{
     opacity: 0.4;

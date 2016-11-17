@@ -5,12 +5,11 @@
     text-align: center;
     width: 100%;
     background-color: rgb(250,250,250);
-    font-family: sans-serif;
+    font-family: 'OpenSans-Semibold' ,sans-serif;
     position: absolute;
     height: 100%;
 }
 .block_content{
-    text-align: left;
     display: inline-block;
     width: 26.3em;
     box-shadow: 0px 11px 58px -6px rgb(236, 236, 236);
@@ -41,16 +40,16 @@
     color: rgb(114,114,114);
     margin: 2em auto;
     line-height: 1.9;
-    font-family: sans-serif;
+    font-family: 'OpenSans-Semibold' ,sans-serif;
     font-size: 0.9em;
     letter-spacing: -0.5px;
     width: 70%;
+    text-align: left;
 }
 .link_home_page{
     color: rgb(2,196,205);
     padding: 11px 50px;
     border: 2px solid rgb(2,196,205);
     border-radius: 5px;
-    margin-left: 88px;
     display: inline-block;
 }
