@@ -215,6 +215,7 @@
         display: inline-block;
         padding: 5px 5px;
         line-height: 1.5;
+        justify-content: center;
     }
     .container_settings .checkbox:before,
     .container_settings .select_value{
