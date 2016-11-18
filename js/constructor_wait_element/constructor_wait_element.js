@@ -1,9 +1,10 @@
 (function(exports){
 
-    function WaitElement() {
+    function WaitElement( blurElem ) {
 
         this.container = document.createElement('div');
         this.container.classList.add('container_wait_element');
+        this.blurElem = blurElem;
 
         var loadingElem = document.createElement('div'),
             loading = document.createElement('div'),
@@ -28,12 +29,15 @@
 
         document.body.appendChild(this.container);
         document.body.style.overflow = 'hidden';
+        this.blurElem.classList.add('blur');
+
     };
 
     WaitElement.prototype.off = function(){
 
         document.body.style.overflow = 'auto';
         document.body.removeChild(this.container);
+        this.blurElem.classList.remove('blur');
     };
 
     exports.WaitElement = WaitElement;

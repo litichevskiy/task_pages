@@ -29,11 +29,11 @@
             }
         });
 
-        // var waitElement = new WaitElement;
+        var waitElement = new WaitElement( document.querySelector('.container_user_page') );
 
-    //     setTimeout(function(){
-    //         waitElement.off();
-    //     }, 3000 );
+        setTimeout(function(){
+            waitElement.off();
+        }, 10000 );
     }
 
 
