@@ -19,14 +19,11 @@
     text-align-last: left;
 }
 .container_logo{
-   margin: 0;
+   margin: 0 !important;
 }
 .nav_panel{
     display: inline-block;
     font-family: 'open-sans', sans-serif;
-}
-.header_sharkgram{
-    color: rgb(82,57,10);
 }
 .list_nav_panel{
     display: inline-block;
@@ -40,12 +37,6 @@
     display: inline-block;
     font-size: 1.3em;
     margin: 0 3px;
-}
-.item_list_nav_panel:nth-child(4) :last-child{
-    color: rgb(37,197,204);
-    border: 1px solid;
-    border-radius: 3px;
-    padding: 4px 15px;
 }
 .hidden{
     display: none;
@@ -120,7 +111,6 @@
     font-size: 2em;
     font-family: 'OpenSans-Light', sans-serif;
 }
-.user_name,
 .user_posts,
 .user_followers,
 .user_following{
@@ -146,6 +136,7 @@
 }
 .input_range{
     width: 100%;
+    margin-top: 10%;
 }
 .input_range{
     -webkit-appearance: none;
@@ -287,7 +278,8 @@
     left: 0;
     top: 3%;
     text-align: center;
-    z-index: -2;
+    /*z-index: -2;*/
+    z-index: 0;
 }
 
 .block_content{
@@ -299,10 +291,10 @@
     opacity: 0;
     transition: 0.2s linear;
     background-color: rgba(0,0,0,0.6);
-    padding: 25% 15% 2% 15%;
+    padding: 0 15% 0 15%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     visibility: hidden;
 }
 .select{
@@ -333,6 +325,8 @@
 }
 .container_input{
     text-align: left;
+    position: relative;
+    height: 33%;
 }
 .container_input .content{
     color: rgb(255,255,255);
@@ -362,14 +356,27 @@
 .comments{
     margin-left: 0.5em;
 }
-.likes:after{
-    content: "❤";
+.likes:before{
+    content: "\e801";
+    font-family: fontello;
     color: rgb(255,255,255);
-    margin-left: 0.1em;
+    margin-right: 0.2em;
 }
-.comments:after{
-    content: '\f4ac';
+.comments:before{
+    content: '\e800';
     color: rgb(255,255,255);
     font-family: fontello;
     margin-left: 0.2em;
+    display: inline-block;
+    transform: rotate(-70deg);
+}
+.video:before{
+    content: '\e802';
+    color: rgb(255,255,255);
+    font-family: fontello;
+    margin-right: 0.2em;
+}
+.container_likes_and_coments{
+    position: absolute;
+    bottom: 1%;
 }

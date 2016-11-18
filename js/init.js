@@ -28,6 +28,14 @@
                 });
             }
         });
+
+        // var waitElement = new WaitElement;
+
+    //     setTimeout(function(){
+    //         waitElement.off();
+    //     }, 3000 );
     }
+
+
 
 })();

@@ -39,11 +39,14 @@
     }
 }
 @media(max-width: 800px){
+    .input_range{
+        margin-top: 0;
+    }
     .open_close_nav_panel{
         display: inline-block;
     }
     .block_content{
-        padding: 15% 5% 5% 5%;
+        padding: 0 5% 0 5%;
     }
     .nav_panel{
         -webkit-transition: 0.3s linear;
@@ -242,7 +245,6 @@
     .user_content{
         font-size: 1.5em;
     }
-    .user_name,
     .user_posts,
     .user_following{
         font-size: 1.3em;
