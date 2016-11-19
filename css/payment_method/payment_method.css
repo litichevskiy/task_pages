@@ -1,16 +1,23 @@
+.container_payment_method{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    max-width: 1265px;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
 .payment_method{
-    position: relative;
-    z-index: 1;
     width: 80%;
-    height: 90%;
-    top: 5%;
     margin: auto;
+    height: 85%;
     background-color: rgb(255,255,255);
     font-family: sans-serif;
     padding-bottom: 60px;
     box-shadow: 0px 11px 61px -7px rgb(204, 198, 198);
-    max-width: 1265px;
-    overflow: auto;
 }
 .header_block_payment_method{
     color: rgb(36,36,36);

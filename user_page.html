@@ -7,11 +7,48 @@
         <link rel="stylesheet" type="text/css" href="css/user_page/style_user_page.css">
         <link rel="stylesheet" type="text/css" href="css/user_page/style_user_page_for_small_device.css">
         <link rel="stylesheet" type="text/css" href="css/page_wait/style_page_wait.css">
+        <link rel="stylesheet" type="text/css" href="css/payment_method/payment_method.css">
+        <link rel="stylesheet" type="text/css" href="css/payment_method/payment_method_for_small_device.css">
         <script src="js/constructor_input_range/constructor_input_range.js"></script>
-        <script src="js/constructor_wait_element/constructor_wait_element.js"></script>
+        <script src="js/constructor_blur_layer/blur_layer.js"></script>
+        <script src="js/payment_method/PaymentMethod.js"></script>
         <script src="js/init.js"></script>
     </head>
     <body>
+    <div class="container_wait_element">
+        <div class="container_loading">
+            <div class="loading">loading</div>
+            <span class="point"></span>
+            <span class="point"></span>
+            <span class="point"></span>
+        </div>
+    </div>
+    <div class="container_payment_method">
+        <div class="payment_method">
+            <div class="close_block_payment_method"></div>
+            <p class="header_block_payment_method">Choose the method of payment</p>
+            <div class="container_payment_element">
+                <div class="payment_card">
+                    <img src="img/payment_method/logo_2_checkout.png" alt="">
+                    <div class="content">
+                        Accept, Credit Cards, PayPal and Debit Cards
+                    </div>
+                    <form class="container_btn_submit">
+                        <button class="btn submit_pay_now" type="submit">Pay now</button>
+                    </form>
+                </div>
+                <div class="payment_cash">
+                    <img src="img/payment_method/sprypay_logo.png" alt="">
+                    <div class="content">
+                        Электронные деньги, Карты, интернет-банки, Наличные, СМС-платежи
+                    </div>
+                    <form class="container_btn_submit">
+                        <button class="btn submit_pay_now" type="submit">Pay now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container_user_page">
         <div class="container_nav_panel">
             <header class="container_logo">

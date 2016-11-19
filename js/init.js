@@ -29,11 +29,26 @@
             }
         });
 
-        var waitElement = new WaitElement( document.querySelector('.container_user_page') );
+        // var blurLayer = new BlurLayer;
+
+        //     blurLayer.on(
+        //         document.querySelector('.container_user_page'),
+        //         document.querySelector('.container_wait_element')
+        //     );
+
+        // setTimeout(function(){
+
+        //     blurLayer.off();
+
+        // }, 2000 );
 
         setTimeout(function(){
-            waitElement.off();
-        }, 10000 );
+
+            var pay = new PaymentMethod;
+
+            pay.on(document.querySelector('.container_user_page'));
+
+        }, 0 );
     }
 
 
