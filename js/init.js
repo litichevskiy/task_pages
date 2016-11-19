@@ -42,13 +42,13 @@
 
         // }, 2000 );
 
-        setTimeout(function(){
+        // setTimeout(function(){
 
-            var pay = new PaymentMethod;
+        //     var pay = new PaymentMethod;
 
-            pay.on(document.querySelector('.container_user_page'));
+        //     pay.on(document.querySelector('.container_user_page'));
 
-        }, 0 );
+        // }, 0 );
     }
 
 
