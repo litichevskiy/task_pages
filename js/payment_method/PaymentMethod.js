@@ -2,6 +2,8 @@
 
     function PaymentMethod() {
 
+        BlurLayer.call( this );
+
         this.container = document.querySelector('.container_payment_method');
         this.closeElement = document.querySelector('.close_block_payment_method');
 
@@ -14,16 +16,16 @@
         });
     };
 
+    PaymentMethod.prototype = Object.create( BlurLayer.prototype );
+
     PaymentMethod.prototype.on = function( htmlElement ) {
 
-        this.blurLayer = new BlurLayer;
-        this.blurLayer.on( htmlElement, this.container );
+        this.blurOn( htmlElement, this.container );
     };
 
     function closePaymentMethod(event) {
 
-        this.blurLayer.off();
-        this.blurLayer = null;
+        this.blurOff();
     };
 
     exports.PaymentMethod = PaymentMethod;

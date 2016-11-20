@@ -2,7 +2,7 @@
 
     function BlurLayer() {};
 
-    BlurLayer.prototype.on = function( blurElement, showElement ) {
+    BlurLayer.prototype.blurOn = function( blurElement, showElement ) {
         this.blurElement = blurElement;
         this.showElement = showElement;
 
@@ -11,11 +11,14 @@
         document.body.style.overflow = 'hidden';
     };
 
-    BlurLayer.prototype.off = function( blurElement ) {
+    BlurLayer.prototype.blurOff = function( blurElement ) {
 
         this.blurElement.classList.remove('blur');
         this.showElement.style.display = 'none';
         document.body.style.overflow = 'auto';
+
+        delete this.blurElement;
+        delete this.showElement;
     };
 
     exports.BlurLayer = BlurLayer;

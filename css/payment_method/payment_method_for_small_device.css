@@ -23,6 +23,12 @@
     .submit_pay_now{
         width: 80%;
     }
+    .close_block_payment_method:before{
+        font-size: 2.5em;
+    }
+    .close_block_payment_method{
+        margin-top: 0.5em;
+    }
 }
 @media(max-width:960px){
     .payment_method{
@@ -44,7 +50,7 @@
     .container_btn_submit{
         position: relative;
     }
-    .content{
+    .payment_card .content{
         margin-top: 50px !important;
     }
     .submit_pay_now{
@@ -54,7 +60,6 @@
         padding-top: 50px;
     }
     .header_block_payment_method{
-        padding-top: 40px;
         margin: 10px;
     }
 }

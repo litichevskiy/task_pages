@@ -24,7 +24,8 @@
 .container_loading{
     display: inline-block;
     vertical-align: middle;
-    width: 97%;
+    width: 90%;
+    margin-left: 5%;
     text-align: center;
 }
 .loading{

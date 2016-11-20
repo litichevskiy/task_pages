@@ -2,29 +2,31 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    overflow: auto;
     z-index: 10;
     top: 0;
     left: 0;
-    max-width: 1265px;
     background-color: rgba(0,0,0,0.5);
     display: none;
 }
 .payment_method{
     width: 80%;
     margin: auto;
-    height: 85%;
+    height: 80%;
     background-color: rgb(255,255,255);
     font-family: sans-serif;
     padding-bottom: 60px;
     box-shadow: 0px 11px 61px -7px rgb(204, 198, 198);
+    max-width: 1265px;
+    overflow: auto;
+    margin-top: 5.5%;
 }
 .header_block_payment_method{
     color: rgb(36,36,36);
     text-align: center;
-    margin-top: 45px;
+    margin-top: 0;
     font-size: 1.7em;
     font-family: 'openSans-Light', sans-serif;
+    margin-bottom: 0;
 }
 .payment_card,
 .payment_cash{
@@ -42,22 +44,26 @@
     top: 100%;
     width: 100%;
     padding-top: 15%;
+    padding-bottom: 2em;
 }
 .payment_method .content{
     color: rgb(36,36,36);
     font-size: 1.5em;
     width: 60%;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 55px;
     font-family: 'open-sans', sans-serif;
 }
-.close_block_payment_method:after{
+.close_block_payment_method{
+    text-align: right;
+    margin-top: 1em;
+}
+.close_block_payment_method:before{
     content: '✕';
     color: rgb(88,211,216);
     cursor: pointer;
     font-size: 2em;
-    float: right;
-    margin: 0.1em 0.5em 0 0;
+    margin-right:  1em;
 }
 .submit_pay_now{
     margin-top: 0;
