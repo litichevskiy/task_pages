@@ -21,12 +21,12 @@
                     colorDefault : 'rgb(221,224,225)',
                     colorSelect  : 'rgb(37,197,204)',
                     min : 0,
-                    max : 500000,
+                    max : 100,
                     step : 1,
-                    currentValue : 200,
+                    currentValue : 0,
                     content : '+',
                     steps : [
-                        {min : 0, max:250000, step: 1000},{min:250000, max:500000, step: 10000},
+                        {min : 0, max:50, step: 100},{min:50, max:100, step: 10000},
                     ]
                 });
             }
