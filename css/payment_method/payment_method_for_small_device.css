@@ -30,7 +30,13 @@
         margin-top: 0.5em;
     }
 }
-@media(max-width:960px){
+@media(max-width:1000px){
+    .payment_card,
+    .payment_cash{
+        width: 50%;
+    }
+}
+@media(max-width:860px){
     .payment_method{
         position: relative;
         width: 90%;

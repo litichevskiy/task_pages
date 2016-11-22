@@ -54,8 +54,8 @@
         for( var i = 0; i < this.steps.length; i++ ){
 
             if( val >= this.steps[i].min && val <= this.steps[i].max ){
-
-                this.valueElement.innerHTML = this.content + event.target.value * this.steps[i].step;
+                debugger
+                this.valueElement.innerHTML = this.content + val * this.steps[i].step;
                 return;
             }
         }

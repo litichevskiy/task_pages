@@ -16,9 +16,6 @@
         this.blurElement.classList.remove('blur');
         this.showElement.style.display = 'none';
         document.body.style.overflow = 'auto';
-
-        delete this.blurElement;
-        delete this.showElement;
     };
 
     exports.BlurLayer = BlurLayer;

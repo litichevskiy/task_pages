@@ -30,26 +30,46 @@
 }
 .payment_card,
 .payment_cash{
-    width: 50%;
+    padding-top: 40px;
+    width: 33%;
     text-align: center;
-    padding-top: 55px;
     position: relative;
-    display: table-cell;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .container_payment_element{
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .container_btn_submit{
-    position: absolute;
-    top: 100%;
-    width: 100%;
     padding-top: 15%;
     padding-bottom: 2em;
 }
 .payment_method .content{
     color: rgb(36,36,36);
     font-size: 1.5em;
-    width: 60%;
+    width: 80%;
     margin: auto;
     margin-top: 55px;
     font-family: 'open-sans', sans-serif;
