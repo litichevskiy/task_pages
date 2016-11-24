@@ -80,7 +80,7 @@
         <div class="container_nav_panel">
             <header class="container_logo">
                 <a class="link_not_content" href=""></a>
-                <img class="img_logo" src="img/img_page_id/small_logo.png" alt="">
+                <img class="img_logo" src="img/img_page_id/converted_logo.png" alt="">
                 <h1 class="header_sharkgram">Sharkgram</h1>
             </header>
             <input type="checkbox" id="open_close_nav_panel" class="hidden set_visibility_nav_panel" />
@@ -98,7 +98,7 @@
             </nav>
         </div>
         <div class="main_block">
-            <section class="user_info">
+            <div class="user_info">
                 <div class="container_user_photo">
                     <img class="user_photo" src="img/user_page/user_photo.jpg" alt="">
                     <div class="to_pay">100$ to pay</div>
@@ -125,7 +125,7 @@
                     <br/>
                     <div class="more_followers container_input_range">
                         <span class="user_content content_more_followers">More followers</span>
-                        <span class="value counter_more_followers">+500</span>
+                        <input type="text" class="value counter_more_followers"/>
                         <input type="range" class="input_range">
                     </div>
                     <div class="container_settings">
@@ -133,7 +133,7 @@
                             <input type="checkbox" class="hidden input_container_settings" />
                             <span class="checkbox"></span>
                             <span class="content">Select last</span>
-                            <input type="text" name="" value="1000" class="select_value">
+                            <input type="text" value="1000" class="select_value">
                             <span class="content">pictures</span>
                         </label>
                         <label class="add_likes">
@@ -152,7 +152,7 @@
                         </label>
                     </div>
                 </div>
-            </section>
+            </div>
             <div class="container_user_photos">
                 <div class="container_select_likes_comments container_input_range">
                     <img class="bg_container" src="img/user_page/bg_2.png" alt="">
@@ -167,13 +167,13 @@
                     <div class="block_content">
                         <div class="container_input first_block">
                             <span class="content">Likes</span>
-                            <span class="value one">+200</span>
-                            <input type="range" class="input_1 input_range"/>
+                            <input type="text" class="value one"/>
+                            <input type="range" class="input_range"/>
                         </div>
                         <div class="container_input last_block">
+                            <input type="text" class="value two"/>
                             <span class="content">Comments</span>
-                            <span class="value two">+200</span>
-                            <input type="range" class="input_2 input_range" min="0" max="800" step="1" value="40">
+                            <input type="range" class="input_range">
                         </div>
                         <div class="container_likes_and_coments">
                             <span class="likes video">+200</span>
@@ -199,60 +199,8 @@
                         </div> -->
                         <div class="container_input last_block">
                             <span class="content">Comments</span>
-                            <span class="value two">+200</span>
-                            <input type="range" class="input_2 input_range" min="0" max="800" step="1" value="40">
-                        </div>
-                        <div class="container_likes_and_coments">
-                            <span class="likes">+200</span>
-                            <span class="comments">+30</span>
-                        </div>
-                    </div>
-                </div><div class="container_select_likes_comments container_input_range">
-                    <img class="bg_container" src="img/user_page/bg_2.png" alt="">
-                    <label class="container_select">
-                        <input type="checkbox"  class="hidden select_photo">
-                        <span class="select">
-                            <svg class="svg_plus" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve">
-                                <polygon points="42,20 22,20 22,0 20,0 20,20 0,20 0,22 20,22 20,42 22,42 22,22 42,22 " fill="#FFF"/>
-                            </svg>
-                        </span>
-                    </label>
-                    <div class="block_content">
-                        <div class="container_input first_block">
-                            <span class="content">Likes</span>
-                            <span class="value one">+200</span>
-                            <input type="range" class="input_1 input_range"/>
-                        </div>
-                        <div class="container_input last_block">
-                            <span class="content">Comments</span>
-                            <span class="value two">+200</span>
-                            <input type="range" class="input_2 input_range" min="0" max="800" step="1" value="40">
-                        </div>
-                        <div class="container_likes_and_coments">
-                            <span class="likes">+200</span>
-                            <span class="comments">+30</span>
-                        </div>
-                    </div>
-                </div><div class="container_select_likes_comments container_input_range">
-                    <img class="bg_container" src="img/user_page/bg_2.png" alt="">
-                    <label class="container_select">
-                        <input type="checkbox"  class="hidden select_photo">
-                        <span class="select">
-                            <svg class="svg_plus" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve">
-                                <polygon points="42,20 22,20 22,0 20,0 20,20 0,20 0,22 20,22 20,42 22,42 22,22 42,22 " fill="#FFF"/>
-                            </svg>
-                        </span>
-                    </label>
-                    <div class="block_content">
-                        <div class="container_input first_block">
-                            <span class="content">Likes</span>
-                            <span class="value one">+200</span>
-                            <input type="range" class="input_1 input_range"/>
-                        </div>
-                        <div class="container_input last_block">
-                            <span class="content">Comments</span>
-                            <span class="value two">+200</span>
-                            <input type="range" class="input_2 input_range" min="0" max="800" step="1" value="40">
+                            <input type="text" class="value two"/>
+                            <input type="range" class="input_range"/>
                         </div>
                         <div class="container_likes_and_coments">
                             <span class="likes">+200</span>
@@ -273,13 +221,13 @@
                     <div class="block_content">
                         <div class="container_input first_block">
                             <span class="content">Likes</span>
-                            <span class="value one">+200</span>
-                            <input type="range" class="input_1 input_range"/>
+                            <input type="text" class="value one"/>
+                            <input type="range" class="input_range"/>
                         </div>
                         <div class="container_input last_block">
                             <span class="content">Comments</span>
-                            <span class="value two">+200</span>
-                            <input type="range" class="input_2 input_range" min="0" max="800" step="1" value="40">
+                            <input type="text" class="value two"/>
+                            <input type="range" class="input_range"/>
                         </div>
                         <div class="container_likes_and_coments">
                             <span class="likes">+200</span>
@@ -287,6 +235,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

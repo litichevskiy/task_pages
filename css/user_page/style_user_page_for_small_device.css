@@ -1,3 +1,22 @@
+@media(max-width: 1150px){
+    .block_user_info{
+        width: 100%;
+        padding-left: 0;
+    }
+    .container_nav_panel{
+        padding: 1% 6%;
+    }
+    .container_select_likes_comments{
+        width: 32%;
+        margin-left: 0;
+    }
+    .input_range{
+        margin-left: 0;
+    }
+    .more_followers .value{
+        width: 4.4em;
+    }
+}
 @media(max-width: 1000px){
     .container_user_photo{
         margin-right: 0;
@@ -14,6 +33,10 @@
         width: 1.5em;
         height: 1.5em;
     }
+    .container_input .content,
+    .value{
+        font-size: 100%;
+    }
 }
 @media(max-width: 870px){
     .user_info{
@@ -26,7 +49,7 @@
         padding-bottom: 2em;
     }
     .container_user_photo .form_pay_now{
-        display: inline-block;
+        display: block;
     }
     .info,
     .more_followers{
@@ -41,6 +64,7 @@
 @media(max-width: 800px){
     .input_range{
         margin-top: 0;
+        margin-left: 0;
     }
     .open_close_nav_panel{
         display: inline-block;
@@ -56,9 +80,9 @@
         left: -100%;
         height: 100vh;
         margin: 0;
-        background-color: rgb(255,255,255);
+        color: rgb(255,255,255);
         width: 60%;
-        background-color: rgb(85,61,15);
+        background-color: rgb(0, 198, 206);
         z-index: 1;
         overflow: auto;
     }
@@ -91,8 +115,7 @@
         vertical-align: middle;
         font-size: 1.3em;
         border-bottom: 1px solid;
-        background-color: rgb(85,61,15);
-        padding: 16px 12px 16px 12px;
+        padding: 16px 12px 16px 0px;
     }
     .set_visibility_nav_panel:checked ~ .nav_panel{
         left: 0;
@@ -101,50 +124,39 @@
         -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
                 transform: rotate(45deg);
-        top: 47%;
+        top: 46%;
     }
     .set_visibility_nav_panel:checked ~ .open_close_nav_panel .two{
         -webkit-transform: rotate(135deg);
             -ms-transform: rotate(135deg);
                 transform: rotate(135deg);
-        bottom: 43%;
+        bottom: 44%;
     }
     .set_visibility_nav_panel:checked ~ .nav_panel .list_nav_panel :nth-child(1){
         -webkit-transition-delay: 0.28s;
                 transition-delay: 0.28s;
-        top: 0;
         opacity: 1;
         padding-left: 2em;
     }
     .set_visibility_nav_panel:checked ~ .nav_panel .list_nav_panel :nth-child(2){
         -webkit-transition-delay: 0.38s;
                 transition-delay: 0.38s;
-        top: 15%;
-        opacity: 1;
-        padding-left: 2em;
-    }
-    .set_visibility_nav_panel:checked ~ .nav_panel .list_nav_panel :nth-child(3){
-        -webkit-transition-delay: 0.48s;
-                transition-delay: 0.48s;
-        top: 30%;
-        opacity: 1;
-        padding-left: 2em;
-    }
-    .set_visibility_nav_panel:checked ~ .nav_panel .list_nav_panel :nth-child(4){
-        -webkit-transition-delay: 0.58s;
-                transition-delay: 0.58s;
-        top: 45%;
         opacity: 1;
         padding-left: 2em;
     }
 }
 @media(max-width: 650px){
     .container_input .content,
-    .likes, .comments{
-        font-size: 100%;
+    .likes, .comments,
+    .value{
+        font-size: 90%;
+    }
+    .block_content {
+        padding: 0 3% 0 3%;
     }
     .value{
-        width: auto;
+        padding: 1% 0.5%;
+        width: 4.6em;
     }
 }
 @media(max-width:570px){
@@ -167,7 +179,10 @@
         margin-bottom: 5%;
     }
     .value{
-        width: 30%;
+        font-size: 120%;
+    }
+    .content{
+        padding: 1% 0.5% !important;
     }
 }
 @media(max-width:350px){
@@ -186,6 +201,10 @@
     }
     .nav_panel{
         width: 100%;
+    }
+    .content,
+    .value{
+        font-size: 100%;
     }
 }
 @media(max-width:300px){
@@ -238,7 +257,6 @@
 }
 @media(max-width:200px){
     .value{
-        width: auto;
         padding: 1% 1%;
         font-size: 85%;
     }
@@ -258,19 +276,13 @@
     .open_close_nav_panel{
         vertical-align: sub;
     }
-    .item_list_nav_panel:nth-child(4) :last-child{
-        color: rgb(255,255,255);
-        border: none;
-        border-bottom: 1px solid;
-        border-radius: 0;
-    }
     .container_user_photo{
         width: 100%;
         display: block;
         text-align: center;
     }
     .container_user_photo .form_pay_now{
-        display: inline-block;
+        display: block;
     }
     .info,
     .more_followers{
@@ -306,9 +318,14 @@
     }
     .user_posts,
     .user_following{
+    }
+    .user_posts,
+    .user_followers,
+    .user_following{
+        display: block;
         font-size: 1.3em;
     }
-    .more_followers{
-        margin-top: 0;
+    .item_list_nav_panel{
+        padding-left: 0 !important;
     }
 }

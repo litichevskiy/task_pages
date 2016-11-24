@@ -43,7 +43,7 @@
     background-color: rgb(255,255,255);
 }
 .img_logo{
-    width: 1.95em;
+    vertical-align: text-bottom;
 }
 .container_logo{
     font-family: sans-serif;

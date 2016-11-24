@@ -23,10 +23,15 @@
                     min : 0,
                     max : 100,
                     step : 1,
-                    currentValue : 0,
+                    value : 50,
+                    maxNumber : 500000,
                     content : '+',
-                    steps : [
-                        {min : 0, max:50, step: 100},{min:50, max:100, step: 10000},
+                    ranges : [
+                        {  min: 0, max: 20, vmin: 0, vmax: 1000 },
+                        {  min: 21, max: 30, vmin: 1001, vmax: 10000 },
+                        {  min: 31, max: 50, vmin: 10001, vmax: 250000 },
+                        {  min: 51, max: 70, vmin: 250001, vmax: 300000 },
+                        {  min: 71, max: 100, vmin: 250001, vmax: 500000 }
                     ]
                 });
             }
@@ -45,13 +50,13 @@
 
         // }, 2000 );
 
-        setTimeout(function(){
+        // setTimeout(function(){
 
-            var pay = new PaymentMethod;
+        //     var pay = new PaymentMethod;
 
-            pay.on(document.querySelector('.container_user_page'));
+        //     pay.on(document.querySelector('.container_user_page'));
 
-        }, 0 );
+        // }, 0 );
     }
 
 
