@@ -14,6 +14,7 @@
             });
         };
 
+
         var list = document.querySelectorAll('.container_input_range');
 
         list.forEach = [].forEach;
