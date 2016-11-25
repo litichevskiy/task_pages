@@ -9,6 +9,8 @@
             labelList[i].addEventListener('click',function(event) {
                 if( event.target.tagName === 'INPUT' ) return;
                 this.classList.toggle('label_active');
+                var input = this.querySelector('.input_container_settings');
+                input.checked = !input.checked;
             });
         };
 
