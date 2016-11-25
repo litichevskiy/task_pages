@@ -2,6 +2,16 @@
 
     window.onload = function(){
 
+        var labelList = document.querySelectorAll('.data_role_label');
+
+        for( var i = 0; i < labelList.length; i++ ) {
+
+            labelList[i].addEventListener('click',function(event) {
+                if( event.target.tagName === 'INPUT' ) return;
+                this.classList.toggle('label_active');
+            });
+        };
+
         var list = document.querySelectorAll('.container_input_range');
 
         list.forEach = [].forEach;

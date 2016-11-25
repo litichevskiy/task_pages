@@ -87,3 +87,6 @@
     margin-top: 80px;
     font-family: 'OpenSans-Bold', sans-serif;
 }
+.hide{
+    display: none;
+}
