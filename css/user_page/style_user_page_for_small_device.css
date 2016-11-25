@@ -13,9 +13,6 @@
     .input_range{
         margin-left: 0;
     }
-    .more_followers .value{
-        width: 4.4em;
-    }
 }
 @media(max-width: 1000px){
     .container_user_photo{
@@ -156,7 +153,6 @@
     }
     .value{
         padding: 1% 0.5%;
-        width: 4.6em;
     }
 }
 @media(max-width:570px){
@@ -171,7 +167,7 @@
         font-size: 120%;
     }
     .block_content {
-        padding: 15% 15% 10% 15%;
+        padding: 15% 10% 10% 10%;
     }
     .input_range {
         width: 100%;
@@ -213,11 +209,6 @@
     }
     .user_content{
         font-size: 1.1em !important;
-    }
-    .select_last,
-    .add_likes,
-    .add_views{
-        font-size: 0.6em;
     }
     .item_list_nav_panel{
         padding-left: 0 !important;
@@ -292,7 +283,7 @@
         font-size: 1.2em;
         margin: 0 0.2em;
     }
-    .select_last, .add_photos, .add_comments{
+    .add_photos, .add_comments{
         line-height: 1.8;
     }
     .container_select_likes_comments{
