@@ -36,6 +36,7 @@
     font-size: 3em;
     margin: 0;
     font-family: 'MuseoSansCyrl_3', sans-serif;
+    text-shadow: 1px 1px 6px grey;
 }
 .content_main_header{
     font-size: 0.55em;
@@ -74,9 +75,6 @@
     line-height: 0.1;
     vertical-align: middle;
 }
-
-/*/////////////////////////////////////*/
-
 .container_main_content{
     width: 100%;
     margin-top: 1em;
@@ -151,7 +149,7 @@
     opacity: 1;
 }
 .simbol{
-    font-size: 1.2em;
+    font-size: 121%;
     background-color: rgb(255,255,255);
     color: rgb(82, 143, 197);
     border-radius: 5px;
