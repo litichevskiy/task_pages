@@ -126,3 +126,8 @@
                 align-items: center;
     }
 }
+@media screen and (min-device-width:1360px){
+    .block_content_main_page{
+        margin-top: 15%;
+    }
+}
