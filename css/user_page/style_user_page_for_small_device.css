@@ -26,7 +26,8 @@
     .container_nav_panel{
         padding: 0.5em 1em;
     }
-    .select{
+    .select,
+    .svg_plus{
         width: 1.5em;
         height: 1.5em;
     }
@@ -67,7 +68,7 @@
         display: inline-block;
     }
     .block_content{
-        padding: 0 5% 0 5%;
+        padding: 5% 5% 0 5%;
     }
     .nav_panel{
         -webkit-transition: 0.3s linear;
@@ -149,7 +150,7 @@
         font-size: 90%;
     }
     .block_content {
-        padding: 0 3% 0 3%;
+        padding: 10% 3% 0 3%;
     }
     .value{
         padding: 1% 0.5%;
@@ -300,7 +301,6 @@
             -ms-flex-pack: center;
                 justify-content: center;
     }
-    .container_settings .checkbox:before,
     .container_settings .select_value{
         font-size: 1.2em;
     }

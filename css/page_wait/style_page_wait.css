@@ -10,8 +10,6 @@
     background-color: rgba(0,0,0,0.5);
     z-index: 10;
     display: none;
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
 }
 .container_wait_element:after{
     content: '';
