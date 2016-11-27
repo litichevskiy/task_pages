@@ -41,6 +41,16 @@
     .user_following{
         margin: 0;
     }
+    .info{
+        margin-top: 1.3em;
+    }
+    .container_user_photo{
+        width: 100%;
+        display: block;
+    }
+    .user_content.user_name{
+        text-align: center;
+    }
 }
 @media(max-width: 1000px){
     .container_user_photo{
@@ -225,6 +235,9 @@
     .container_nav_panel {
         padding: 0.5em 1em !important;
     }
+    .info{
+        margin-top: 1.3em;
+    }
 }
 @media(max-width:350px){
     .header_sharkgram{
@@ -323,6 +336,9 @@
     .info,
     .more_followers{
         display: block;
+    }
+    .info{
+        margin-top: 1.3em;
     }
     .container_settings .content{
         font-size: 105%;
