@@ -100,7 +100,23 @@
         <div class="main_block">
             <div class="user_info">
                 <div class="container_user_photo">
-                    <img class="user_photo" src="img/user_page/user_photo.jpg" alt="">
+                    <img class="user_photo" src="{{ $avatar }}" alt="">
+                     <div class='uil-ellipsis-css hide uprice' style='transform:scale(0.15);'>
+                        <div class="ib">
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                            <div class="circle">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="to_pay">100$ to pay</div>
                     <form class="form_pay_now">
                         <button class="btn submit_pay_now" type="submit">Pay now</button>
@@ -109,18 +125,20 @@
                 <div class="block_user_info">
                     <div class="info">
                         <div class="user_content user_name">Игорь ron</div>
-                        <span class="user_content user_posts">
-                            <strong class="count_bold">84</strong>
-                            Posts
-                        </span>
-                        <span class="user_content user_followers">
-                            <strong class="count_bold">316</strong>
-                            Followers
-                        </span>
-                        <span class="user_content user_following">
-                            <strong class="count_bold">268</strong>
-                            Following
-                        </span>
+                        <div class="container_content_user_info">
+                            <span class="user_content user_posts">
+                                <strong class="count_bold">84</strong>
+                                Posts
+                            </span>
+                            <span class="user_content user_followers">
+                                <strong class="count_bold">316</strong>
+                                Followers
+                            </span>
+                            <span class="user_content user_following">
+                                <strong class="count_bold">268</strong>
+                                Following
+                            </span>
+                        </div>
                     </div>
                     <br/>
                     <div class="more_followers container_input_range">
@@ -170,7 +188,16 @@
             </div>
             <div class="container_user_photos">
                 <div class="container_select_likes_comments container_input_range">
-                    <img class="img_camera" src="img/user_page/camera_img.png" alt="">
+                    <!-- <img class="img_camera" src="img/user_page/camera_img.png" alt=""> -->
+                    <svg class="svg_camera" x="0px" y="0px" viewBox="0 0 314.068 314.068"  xml:space="preserve">
+                        <g>
+                            <g id="_x33_56._Play">
+                                <g>
+                                    <path d="M293.002,78.53C249.646,3.435,153.618-22.296,78.529,21.068C3.434,64.418-22.298,160.442,21.066,235.534     c43.35,75.095,139.375,100.83,214.465,57.47C310.627,249.639,336.371,153.62,293.002,78.53z M219.834,265.801     c-60.067,34.692-136.894,14.106-171.576-45.973C13.568,159.761,34.161,82.935,94.23,48.26     c60.071-34.69,136.894-14.106,171.578,45.971C300.493,154.307,279.906,231.117,219.834,265.801z M213.555,150.652l-82.214-47.949     c-7.492-4.374-13.535-0.877-13.493,7.789l0.421,95.174c0.038,8.664,6.155,12.191,13.669,7.851l81.585-47.103     C221.029,162.082,221.045,155.026,213.555,150.652z" fill="#FFFFFF"/>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                     <img class="bg_container" src="img/user_page/bg_0.png" alt="">
                     <label class="container_select">
                         <input type="checkbox" class="hide select_photo">

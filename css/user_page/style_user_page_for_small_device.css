@@ -13,6 +13,34 @@
     .input_range{
         margin-left: 0;
     }
+    .container_content_user_info{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+        padding: 15px 0;
+        border-bottom: 1px solid rgb(219, 219, 219);
+        border-top: 1px solid rgb(219, 219, 219);
+    }
+    .user_info{
+        padding: 5% 6% 2% 6%;
+    }
+    .count_bold{
+        display: block;
+        text-align: center;
+    }
+    .container_content_user_info .user_content{
+        color: rgb(153,153,153);
+        line-height: 1;
+    }
+    .user_posts,
+    .user_followers,
+    .user_following{
+        margin: 0;
+    }
 }
 @media(max-width: 1000px){
     .container_user_photo{
@@ -180,6 +208,22 @@
     }
     .content{
         padding: 1% 0.5% !important;
+        font-size: 115% !important;
+    }
+    .container_user_photos{
+        padding: 0;
+    }
+    .unchecked,
+    .checked {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    .container_settings .select_value{
+        padding: 2px 2px;
+        font-size: 1.2em;
+    }
+    .container_nav_panel {
+        padding: 0.5em 1em !important;
     }
 }
 @media(max-width:350px){
@@ -281,8 +325,8 @@
         display: block;
     }
     .container_settings .content{
-        font-size: 1.2em;
-        margin: 0 0.2em;
+        font-size: 105%;
+        margin: 0;
     }
     .add_photos, .add_comments{
         line-height: 1.8;
@@ -302,21 +346,28 @@
                 justify-content: center;
     }
     .container_settings .select_value{
-        font-size: 1.2em;
+        font-size: 100%;
+        padding: 1px 1px;
     }
     .user_content{
         font-size: 1.5em;
     }
     .user_posts,
-    .user_following{
-    }
-    .user_posts,
     .user_followers,
     .user_following{
         display: block;
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 0;
     }
     .item_list_nav_panel{
         padding-left: 0 !important;
+    }
+    .container_user_photos{
+        padding: 0;
+    }
+    .unchecked,
+    .checked{
+        height: 1em;
+        width: 1em;
     }
 }

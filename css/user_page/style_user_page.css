@@ -3,7 +3,7 @@
 
 .container_nav_panel{
     /*background-color: rgb(255,255,255);*/
-    padding: 0.5em 4em 0.5em 5em;
+    padding: 0.7em 4em 0.7em 5em !important;
     position: relative;
     border-bottom: 1px solid rgb(219, 219, 219);
 }
@@ -20,7 +20,7 @@
     display: inline-block;
 }
 .link_nav_panel{
-    color: rgb(85,61,15);
+    color: rgb(38,38,38);
     padding: 12px 8px 12px 8px;
     display: inline-block;
     font-size: 1.3em;
@@ -78,7 +78,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    color: rgb(82,57,10);
+    color: rgb(38, 38, 38);
 }
 .main_block{
     width: 100%;
@@ -94,19 +94,30 @@
     display: inline-block;
     padding-left: 2%;
 }
+.count_bold{
+    color: rgb(38, 38, 38);
+}
 .user_content{
-    color: rgb(82,57,10);
+    color: rgb(38, 38, 38);
     font-size: 1.8em;
     font-family: 'OpenSans-Light', sans-serif;
 }
 .user_posts,
 .user_followers,
 .user_following{
-    margin-right: 10px;
-    font-size: 1.5em;
+    margin-right: 33px;
+    font-size: 1.2em;
+    font-family: 'OpenSans-Light', sans-serif;
+}
+.info .user_name{
+    font-size: 33px;
+    margin-bottom: 15px;
 }
 .more_followers{
     width: 310px;
+}
+.container_content_user_info{
+    display: inline-block;
 }
 .more_followers .input_range{
     margin-top: 7%;
@@ -207,7 +218,7 @@
     -webkit-transition: 0.2s linear;
     transition: 0.2s linear;
     font-size: 1.8em;
-    color: rgb(82,57,10);
+    color: rgb(38, 38, 38);
 }
 .container_user_photos{
     padding: 0 3.8%;
@@ -409,9 +420,11 @@
     padding: 0.2em;
     border: 1px solid rgb(37,197,204);
 }
-.img_camera{
+.svg_camera{
     position: absolute;
     z-index: 2;
     right: 3%;
     top: 3%;
+    width: 30px;
+    padding: 3px;
 }
