@@ -458,34 +458,19 @@
     width: 100%;
     left: 0;
     bottom: 0;
-    height: 3em;
-    /*text-align: right;*/
-    /*padding: 10px 5.3% 10px 3.8%;*/
+    text-align: right;
+    padding: 10px 5.3% 10px 3.8%;
     background-color: rgb(255,255,255);
     border-top: 1px solid rgb(219, 219, 219);
-    z-index: 5;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    z-index: 3;
 }
 .form_sign_up{
     display: inline-block;
-    margin-right: 5.8%;
 }
 .sign_up{
     color: rgb(255,255,255);
     padding: 7px 24px !important;
     font-size: 14px !important;
+    background-color: rgb(7,211,15);
     font-family: 'MuseoSansCyrl_1', sans-serif;
-    background: -webkit-radial-gradient(100% 24% ellipse,#ee583f 6%,#d92d77 35%,#bd3381 75%) !important;
-    background: radial-gradient(ellipse at 100% 24%,#ee583f 6%,#d92d77 35%,#bd3381 75%) !important;
 }

@@ -243,13 +243,11 @@
     }
     .form_sign_up{
         display: block;
-        margin: 0;
-        width: 100%;
+        text-align: center;
     }
     .sign_up{
         padding: 8px 24px !important;
         font-size: 17px !important;
-        width: 100% !important;
     }
     .container_load_more{
         padding-bottom: 60px !important;
