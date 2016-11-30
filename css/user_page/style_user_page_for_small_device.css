@@ -243,6 +243,8 @@
     }
     .form_sign_up{
         display: block;
+        margin: 0;
+        width: 100%;
     }
     .sign_up{
         padding: 8px 24px !important;
