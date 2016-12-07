@@ -438,7 +438,7 @@
 }
 .svg_camera{
     position: absolute;
-    z-index: 2;
+    z-index: 0;
     right: 1%;
     top: 1%;
     width: 42px;
