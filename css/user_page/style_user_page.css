@@ -6,9 +6,12 @@
 }
 .container_nav_panel{
     background-color: rgb(255,255,255);
-    padding: 0.7em 4em 0.7em 4.6em !important;
+    padding: 0.7em 4em 0.7em 4em !important;
     position: relative;
     border-bottom: 1px solid rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .container_logo{
    margin: 0 !important;
@@ -19,8 +22,8 @@
     float: right;
 }
 .img_logo{
-    width: 57px;
-    vertical-align: sub;
+    width: 60px;
+    vertical-align: text-bottom;
 }
 .list_nav_panel,
 .item_list_nav_panel{
