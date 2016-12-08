@@ -212,6 +212,15 @@
 .container_settings{
     margin-top: 1em;
 }
+.container_settings .content:lang(ru) {
+    font-size: 21px;
+}
+.content_more_followers:lang(ru){
+    padding: 2% 0.5%;
+    margin-top: 4px !important;
+    display: inline-block;
+    font-size: 21px;
+}
 .container_settings .select_value{
     width: 4.2em;
     border: 1px solid;
