@@ -514,12 +514,13 @@
     cursor: pointer;
 }
 .open_close_list_language:after{
-    content: '\25ba';
+    /*content: '\25ba';*/
+    content: '►';
     color: rgb(38,38,38);
     display: inline-block;
     -webkit-transition: 0.2s linear;
     transition: 0.2s linear;
-    font-size: 20px;
+    /*font-size: 20px;*/
     vertical-align: middle;
     margin-left: 4px;
     }
