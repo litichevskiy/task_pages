@@ -193,11 +193,16 @@
         -webkit-transition-delay: 0;
                 transition-delay: 0;
         opacity: 0 !important;
-        margin: 0;
+        -webkit-transition-delay: 0s !important;
+                transition-delay: 0s !important;
+    }
+    .item_list_language:hover{
+        background-color: rgb(1, 164, 171);
     }
     #open_close_list_language:checked ~ .list_language .item_list_language{
-        padding-left: 2em !important;
+        /*padding-left: 2em !important;*/
         opacity: 1 !important;
+        margin-left: 2em;
     }
     .link_nav_panel{
         padding-left: 0.8em !important;
