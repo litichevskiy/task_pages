@@ -200,7 +200,6 @@
         background-color: rgb(1, 164, 171);
     }
     #open_close_list_language:checked ~ .list_language .item_list_language{
-        /*padding-left: 2em !important;*/
         opacity: 1 !important;
         margin-left: 2em;
     }
