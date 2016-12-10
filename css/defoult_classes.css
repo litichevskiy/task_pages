@@ -38,10 +38,6 @@
     src: url('../font/MuseoSansCyrl_3.otf');
 }
 @font-face {
-    font-family: 'proximanova-light';
-    src: url('../font/proximanova-light.otf');
-}
-@font-face {
     font-family: 'proximanova_cyrilic';
     src: url('../font/proximanova_cyrilic.ttf');
 }

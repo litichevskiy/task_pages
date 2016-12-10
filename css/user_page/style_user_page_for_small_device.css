@@ -488,12 +488,4 @@
     .item_list_language{
         padding-left: 2em !important;
     }
-    .container_select_likes_comments:focus .block_content{
-        opacity: 1;
-        visibility: visible;
-    }
-    .container_select_likes_comments:avtive .block_content{
-        opacity: 1;
-        visibility: visible;
-    }
 }
