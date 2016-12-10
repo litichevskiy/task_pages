@@ -75,6 +75,9 @@
         width: 1.5em;
         height: 1.5em;
     }
+    .container_select{
+        left: 43.1%;
+    }
     .container_input .content,
     .value{
         font-size: 100%;
