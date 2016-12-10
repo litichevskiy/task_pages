@@ -41,8 +41,12 @@
     font-family: 'proximanova-light';
     src: url('../font/proximanova-light.otf');
 }
-@font-face {
+/*@font-face {
     font-family: 'proximanova_cyrilic';
+    src: url('../font/proximanova_cyrilic.ttf');
+}*/
+@font-face {
+    font-family: 'proximanova_cyrilic_2';
     src: url('../font/proximanova_cyrilic.ttf');
 }
 .header{

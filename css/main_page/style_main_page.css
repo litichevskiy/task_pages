@@ -73,7 +73,7 @@
     content: "\2192";
     font-size: 2em;
     line-height: 0.1;
-    vertical-align: middle;
+    vertical-align: sub;
 }
 .container_main_content{
     width: 100%;

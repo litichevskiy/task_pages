@@ -27,7 +27,7 @@
 }
 .nav_panel{
     display: inline-block;
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
     float: right;
 }
 .img_logo{
@@ -77,7 +77,7 @@
     position: relative;
     vertical-align: top;
     text-align: left;
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
     font-size: 0;
 }
 .container_user_photo{
@@ -103,7 +103,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
     color: rgb(38, 38, 38);
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
 }
 .main_block{
     width: 935px;
@@ -112,7 +112,7 @@
 }
 .container_user_photo .submit_pay_now{
     margin: 0;
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
     display: inline-block;
 }
 .block_user_info{
@@ -129,14 +129,14 @@
 .user_content{
     color: rgb(38, 38, 38);
     font-size: 32px;
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
 }
 .user_posts,
 .user_followers,
 .user_following{
     margin-right: 33px;
     font-size: 19px;
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
 }
 .info .user_name{
     font-size: 33px;
@@ -257,7 +257,7 @@
     transition: 0.2s linear;
     font-size: 26px;
     color: rgb(38, 38, 38);
-    font-family: proximanova_cyrilic, sans-serif;
+    font-family: proximanova_cyrilic_2, sans-serif;
 }
 .container_user_photos{
     margin: auto;
@@ -396,7 +396,7 @@
     font-size: 1.1em;
     padding: 2% 0.5%;
     float: left;
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
     font-weight: 600;
 }
 .value{
@@ -409,7 +409,7 @@
     background-color: transparent;
     width: 5em;
     float: right;
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
     font-weight: 600;
     font-size: 1.1em;
     cursor: pointer;
@@ -421,7 +421,7 @@
 .comments{
     font-size: 120%;
     color: rgb(255,255,255);
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
     font-weight: 600;
 }
 .comments{
@@ -477,7 +477,7 @@
     color: rgb(56, 151, 240);
     cursor: pointer;
     padding: 11px 11px !important;
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
     background-color: transparent;
 }
 .container_load_more,
@@ -508,7 +508,7 @@
     padding: 7px 24px !important;
     font-size: 14px !important;
     background-color: rgb(7,211,15);
-    font-family: 'proximanova_cyrilic', sans-serif;
+    font-family: 'proximanova_cyrilic_2', sans-serif;
 }
 .open_close_list_language{
     cursor: pointer;
