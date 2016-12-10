@@ -45,6 +45,9 @@
     font-family: 'proximanova_cyrilic';
     src: url('../font/proximanova_cyrilic.ttf');
 }
+body{
+    -webkit-font-smoothing: antialiased;
+}
 .header{
     text-align: center;
     border-bottom: 1px solid rgb(237,238,238);

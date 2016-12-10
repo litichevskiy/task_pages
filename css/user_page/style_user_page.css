@@ -276,6 +276,18 @@
     opacity: 1;
     visibility: visible;
 }
+/*.container_select_likes_comments:focus .block_content{
+    opacity: 1;
+    visibility: visible;
+}*/
+.container_select_likes_comments:avtive .block_content{
+    opacity: 1;
+    visibility: visible;
+}
+.container_select_likes_comments:active,
+.container_select_likes_comments:focus{
+        outline: none;
+}
 .container_select_likes_comments:hover .select{
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
