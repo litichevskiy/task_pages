@@ -181,8 +181,6 @@
     .open_close_list_language:after{
         color: rgb(255,255,255);
     }
-
-
     .list_language{
         background-color: rgb(0, 198, 206);
         -webkit-box-shadow: none;
@@ -342,6 +340,9 @@
     }
     .nav_panel{
         width: 80%;
+    }
+    .svg_logo{
+        width: 2.47em !important;
     }
     .list_language{
         padding-left: 0 !important;
