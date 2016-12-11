@@ -275,7 +275,7 @@
     opacity: 1;
     visibility: visible;
 }
-.container_select_likes_comments:hover ..select,
+.container_select_likes_comments:hover .select,
 .hover .select,
 .container_select_likes_comments:active .select{
     display: -webkit-inline-box;
