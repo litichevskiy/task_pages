@@ -41,6 +41,10 @@
     font-family: 'proximanova_cyrilic';
     src: url('../font/proximanova_cyrilic.ttf');
 }
+@font-face{
+    font-family: 'proximanova_header';
+    src: url('../font/proximanova_header.otf');
+}
 body{
     -webkit-font-smoothing: antialiased;
 }
@@ -58,15 +62,21 @@ body{
     display: inline-block;
     margin: 22px 0 25px 0;
 }
+.svg_logo{
+    /*fill: rgb(0, 177, 255);*/
+    fill: rgb(37,197,204);
+    width: 2.47em;
+    vertical-align: sub;
+}
 .header_sharkgram{
-    color: rgb(0, 198, 206);
+    color: rgb(37,197,204);
     display: inline-block;
     margin: 0;
     font-size: 2.66em;
     letter-spacing: -0.1em;
-    font-family: proximanova-light, sans-serif;
+    font-family: 'proximanova_header', sans-serif;
     font-weight: 600;
-    letter-spacing: -2pt;
+    letter-spacing: -1pt;
 }
 .link_not_content{
     position: absolute;
@@ -96,4 +106,40 @@ body{
 }
 .hide{
     display: none;
+}
+.disabled_layer{
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: 3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.text_disabled{
+    display: inline-block;
+    font-family: 'proximanova_cyrilic', sans-serif;
+    font-size: 200%;
+    color: rgb(255,0,0);
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+
+}
+.disabled_layer ~ *{
+    opacity: 0.4;
 }

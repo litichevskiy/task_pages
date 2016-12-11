@@ -113,7 +113,7 @@
         color: rgb(255,255,255);
         width: 60%;
         background-color: rgb(0, 198, 206);
-        z-index: 1;
+        z-index: 4;
         overflow: auto;
     }
     .list_nav_panel{
@@ -299,8 +299,9 @@
     .header_sharkgram{
         font-size: 2em !important;
     }
-    .img_logo{
-        width: 2em;
+    .svg_logo{
+        width: 1.9em !important;
+        vertical-align: text-bottom !important;
     }
     .open_close_nav_panel{
         width: 2em;
@@ -322,80 +323,9 @@
         height: 34px;
         border: 1px solid !important;
     }
-}
-@media(max-width:350px){
-    .header_sharkgram{
-        font-size: 2.2em !important;
-        letter-spacing: -1pt !important;
-    }
-    .img_logo {
-        width: 1.65em !important;
-    }
-    .container_user_photo{
-        padding: 0;
-    }
-    .container_user_photo .form_pay_now {
-        display: block;
-    }
-    .nav_panel{
-        width: 100%;
-    }
-    .content,
-    .value{
-        font-size: 100%;
-    }
-}
-@media(max-width:300px){
-    .container_nav_panel {
-        padding: 0.5em 0.3em !important;
-    }
-    .user_content{
-        font-size: 1.1em !important;
-    }
-    .item_list_nav_panel{
-        padding-left: 0 !important;
-    }
-    .link_nav_panel{
-        padding-left: 0.3em !important;
-    }
-}
-@media(max-width:280px){
-    .container_input .content,
-    .likes,
-    .comments{
-        font-size: 85%;
-    }
-    .block_content {
-        padding: 15% 5% 10% 5%;
-    }
-    .header_sharkgram{
-        font-size: 1.5em !important;
-        letter-spacing: -0.5pt !important;
-    }
-    .img_logo {
-        width: 1.15em !important;
-    }
-    .submit_pay_now {
-        width: 90%;
-    }
-    .container_input{
-        height: 45%;
-    }
-}
-@media(max-width:240px){
-    .open_close_nav_panel{
-        width: 1.5em;
-        height: 1.5em;
-    }
-}
-@media(max-width:200px){
-    .value{
-        padding: 1% 1%;
-        font-size: 85%;
-    }
-    .select{
-        width: 1.5em;
-        height: 1.5em;
+    .list_language{
+        left: 0 !important;
+        width: 100% !important;
     }
 }
 @media screen and (max-device-width:480px){

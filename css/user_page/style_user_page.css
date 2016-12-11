@@ -30,10 +30,6 @@
     font-family: 'proximanova_cyrilic', sans-serif;
     float: right;
 }
-.img_logo{
-    width: 2.66em;
-    vertical-align: text-bottom;
-}
 .list_nav_panel,
 .item_list_nav_panel{
     display: inline-block;
@@ -144,6 +140,7 @@
 }
 .more_followers{
     width: 310px;
+    position: relative;
 }
 .container_content_user_info{
     display: inline-block;
@@ -516,15 +513,14 @@
 }
 .open_close_list_language{
     cursor: pointer;
+    text-transform: uppercase;
 }
 .open_close_list_language:after{
-    /*content: '\25ba';*/
     content: '►';
     color: rgb(38,38,38);
     display: inline-block;
     -webkit-transition: 0.2s linear;
     transition: 0.2s linear;
-    vertical-align: middle;
     margin-left: 4px;
     }
 .list_language{
@@ -571,4 +567,5 @@
 .item_list_language .link_nav_panel{
     cursor: pointer;
     display: block;
+    text-transform: uppercase;
 }
