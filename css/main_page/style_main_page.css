@@ -21,6 +21,7 @@
 .header{
     background-color: transparent;
     border-bottom: none;
+    position: relative;
 }
 .container_logo{
     margin: 10px 0 0 0;
