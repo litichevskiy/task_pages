@@ -95,7 +95,7 @@ body{
 .submit_pay_now{
     background-color: rgb(7,211,15);
     color: rgb(255,255,255);
-    width: 150px;
+    width: 149px;
     text-align: center;
     display: block;
     font-weight: 600;
@@ -105,27 +105,6 @@ body{
 }
 .hide{
     display: none;
-}
-.disabled_layer{
-    position: absolute;
-    width: 100%;
-    height: 105%;
-    top: 0;
-    left: 0;
-    background: transparent;
-    z-index: 3;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
 }
 .text_disabled{
     display: inline-block;
@@ -138,9 +117,6 @@ body{
         -ms-transform: rotate(-15deg);
             transform: rotate(-15deg);
 
-}
-.disabled_layer ~ *{
-    opacity: 0.4;
 }
 .link_nav_panel{
     color: rgb(38,38,38);

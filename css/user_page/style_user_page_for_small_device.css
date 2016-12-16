@@ -293,6 +293,9 @@
     .container_load_more{
         padding-bottom: 60px !important;
     }
+    .form_container_load_more{
+        padding: 40px 0 40px 0;
+    }
 }
 @media(max-width:500px){
     .header_sharkgram{

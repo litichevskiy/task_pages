@@ -84,7 +84,7 @@
     border: 1px solid rgb(219, 219, 219);
 }
 .to_pay{
-    margin: 45px 0 20px 0;
+    margin: 9px 0 9px 0;
     font-size: 1.2em;
     text-align: center;
     max-width: 100%;
@@ -95,9 +95,10 @@
     font-family: 'proximanova_cyrilic', sans-serif;
 }
 .main_block{
-    width: 935px;
+    width: 940px;
     max-width: 1265px;
     margin: 3em auto;
+    margin-bottom: 0;
 }
 .container_user_photo .submit_pay_now{
     margin: 0;
@@ -130,6 +131,7 @@
 .info .user_name{
     font-size: 33px;
     margin-bottom: 15px;
+    margin-top: -6px;
 }
 .more_followers{
     width: 310px;
@@ -230,7 +232,7 @@
     text-align: center;
 }
 .data_role_label{
-    margin-bottom: 0.5em;
+    margin-bottom: 1.14em;
     cursor: pointer;
 }
 .label_active .content{
@@ -484,7 +486,7 @@
 }
 .form_container_load_more{
     text-align: center;
-    padding: 40px 0 60px 0;
+    padding: 40px 0 94px 0;
 }
 .container_sign_up{
     position: fixed;
