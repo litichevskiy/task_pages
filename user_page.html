@@ -13,7 +13,7 @@
         <script src="js/constructor_input_range/constructor_input_range.js"></script>
         <script src="js/constructor_blur_layer/blur_layer.js"></script>
         <script src="js/payment_method/PaymentMethod.js"></script>
-        <script src="js/init.js"> </script>
+        <script src="js/init.js"></script>
     </head>
     <body>
     <div class="container_wait_element">
@@ -117,24 +117,7 @@
         <div class="main_block">
             <div class="user_info">
                 <div class="container_user_photo">
-                    <img class="user_photo" src="img/user_page/user_photo.jpg" alt="">
-                    <!-- <img class="user_photo" src="{{ $avatar }}" alt=""> -->
-                     <div class='uil-ellipsis-css hide uprice' style='transform:scale(0.15);'>
-                        <div class="ib">
-                            <div class="circle">
-                                <div></div>
-                            </div>
-                            <div class="circle">
-                                <div></div>
-                            </div>
-                            <div class="circle">
-                                <div></div>
-                            </div>
-                            <div class="circle">
-                                <div></div>
-                            </div>
-                        </div>
-                    </div>
+                    <img class="user_photo" src="{{user.photo}}" alt="">
                     <div class="to_pay">100$ оплатить</div>
                     <form class="form_pay_now">
                         <button class="btn submit_pay_now" type="submit">оплатить</button>

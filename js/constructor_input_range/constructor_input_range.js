@@ -220,6 +220,7 @@
             colorDefault = data.colorDefault,
             colorSelect = data.colorSelect;
         this.content = data.content;
+
         this.setValue(this.valueElement);
         this.changeProgres( this.inputRange.value, colorSelect, colorDefault );
         this.valueElement.innerHTML = this.content + this.inputRange.value;
@@ -267,10 +268,14 @@
     }
 
     ConstrInputRange.prototype.setValue = function(vE){
-        if(vE.tagName == 'INPUT')
+        if(vE.tagName == 'INPUT') {
+
             vE.value = this.content + this.getValue(this.inputRange);
-        else
+        }
+        else {
+
             vE.innerHTML = this.content + this.getValue(this.inputRange);
+        }
     };
 
     ConstrInputRange.prototype.changeProgres = function( val, colorSelect, colorDefault ) {
